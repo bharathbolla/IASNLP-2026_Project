@@ -416,7 +416,7 @@ python src/teacher_labeling/generate_aux_labels.py `
 Judge candidates:
 
 ```powershell
-python src/teacher_labeling/judge_aux_labels.py `
+python src/teacher_judging/judge_aux_labels.py `
   --input data/synthetic_aux/raw_primary_runs.jsonl `
   --output data/synthetic_aux/judged_candidates.jsonl `
   --model "anthropic/claude-sonnet-4" `

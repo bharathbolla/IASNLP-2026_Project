@@ -1,6 +1,12 @@
-# Judging and Evaluation Pipeline
+# Student Model Evaluation Metrics
 
-This folder contains scripts for evaluating structured triage labels and student predictions.
+This folder contains metric scripts for scoring student-model predictions against held-out reference labels.
+
+It does not generate auxiliary labels, judge teacher outputs, or run student inference. Those steps are kept separate:
+
+- `src/teacher_labeling/`: generate candidate auxiliary labels and build training files.
+- `src/teacher_judging/`: judge and quality-filter teacher-generated labels.
+- `src/student_predictions/`: run the trained student model on dev/test inputs.
 
 ## Main Script
 

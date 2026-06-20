@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto">
+      <path d="M1,1 L10,5.5 L1,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font-family:Arial,sans-serif;font-size:30px;font-weight:700;fill:#0f172a}
+      .label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#0f172a}
+      .text{font-family:Arial,sans-serif;font-size:14px;fill:#334155}
+      .small{font-family:Arial,sans-serif;font-size:13px;fill:#475569}
+      .box{stroke-width:2;rx:10}
+      .arrow{stroke:#334155;stroke-width:2.4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1500" height="620" fill="#ffffff"/>
+  <text x="80" y="60" class="title">Evaluation Strategy for Noise Utility</text>
+  <text x="80" y="90" class="small">Every model variant is evaluated on clean, noisy, and hard-negative views.</text>
+
+  <rect x="85" y="145" width="245" height="120" class="box" fill="#fce7f3" stroke="#db2777"/>
+  <text x="110" y="180" class="label">Model variants</text>
+  <text x="110" y="210" class="text">M0 clean</text>
+  <text x="110" y="230" class="text">M1 hard negatives</text>
+  <text x="110" y="250" class="text">M2/M3 noise variants</text>
+
+  <rect x="445" y="95" width="250" height="105" class="box" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="470" y="130" class="label">Clean test</text>
+  <text x="470" y="160" class="text">macro-F1, tier-3 recall</text>
+  <text x="470" y="180" class="text">under-triage</text>
+
+  <rect x="445" y="255" width="250" height="105" class="box" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="470" y="290" class="label">Noisy test view</text>
+  <text x="470" y="320" class="text">flip rate, recall drop</text>
+  <text x="470" y="340" class="text">evidence drift</text>
+
+  <rect x="445" y="415" width="250" height="105" class="box" fill="#ecfdf5" stroke="#059669"/>
+  <text x="470" y="450" class="label">Hard negatives</text>
+  <text x="470" y="480" class="text">false escalation</text>
+  <text x="470" y="500" class="text">over-triage rate</text>
+
+  <rect x="850" y="145" width="270" height="120" class="box" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="875" y="180" class="label">Compare deltas</text>
+  <text x="875" y="210" class="text">clean vs noisy</text>
+  <text x="875" y="230" class="text">M0 vs M1/M2/M3</text>
+  <text x="875" y="250" class="text">safety first</text>
+
+  <rect x="1235" y="145" width="220" height="120" class="box" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="1260" y="180" class="label">Decision</text>
+  <text x="1260" y="210" class="text">accept, tune,</text>
+  <text x="1260" y="230" class="text">or reject noise</text>
+
+  <line x1="330" y1="205" x2="445" y2="147" class="arrow"/>
+  <line x1="330" y1="205" x2="445" y2="307" class="arrow"/>
+  <line x1="330" y1="205" x2="445" y2="467" class="arrow"/>
+  <path d="M695 147 C770 147, 770 205, 850 205" class="arrow"/>
+  <line x1="695" y1="307" x2="850" y2="205" class="arrow"/>
+  <path d="M695 467 C770 467, 770 250, 850 250" class="arrow"/>
+  <line x1="1120" y1="205" x2="1235" y2="205" class="arrow"/>
+</svg>

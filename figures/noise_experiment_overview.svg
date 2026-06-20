@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto">
+      <path d="M1,1 L10,5.5 L1,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font-family:Arial,sans-serif;font-size:30px;font-weight:700;fill:#0f172a}
+      .label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#0f172a}
+      .text{font-family:Arial,sans-serif;font-size:14px;fill:#334155}
+      .small{font-family:Arial,sans-serif;font-size:13px;fill:#475569}
+      .box{stroke-width:2;rx:10}
+      .arrow{stroke:#334155;stroke-width:2.4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1500" height="620" fill="#ffffff"/>
+  <text x="80" y="60" class="title">Noise Utility Experiment</text>
+  <text x="80" y="90" class="small">Compare clean training, hard negatives, noisy augmentation, and combined robustness training.</text>
+
+  <rect x="80" y="155" width="220" height="105" class="box" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="105" y="190" class="label">Clean train</text>
+  <text x="105" y="220" class="text">original examples</text>
+  <text x="105" y="240" class="text">structured labels</text>
+
+  <rect x="365" y="105" width="250" height="105" class="box" fill="#ecfdf5" stroke="#059669"/>
+  <text x="390" y="140" class="label">Hard negatives</text>
+  <text x="390" y="170" class="text">near-boundary low-risk</text>
+  <text x="390" y="190" class="text">confusing examples</text>
+
+  <rect x="365" y="255" width="250" height="105" class="box" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="390" y="290" class="label">Noisy copies</text>
+  <text x="390" y="320" class="text">typos, word drop,</text>
+  <text x="390" y="340" class="text">ASR/STT noise</text>
+
+  <rect x="735" y="155" width="260" height="105" class="box" fill="#fce7f3" stroke="#db2777"/>
+  <text x="760" y="190" class="label">Model variants</text>
+  <text x="760" y="220" class="text">M0 clean, M1 negatives,</text>
+  <text x="760" y="240" class="text">M2 noise, M3 combined</text>
+
+  <rect x="1110" y="105" width="260" height="105" class="box" fill="#eef2ff" stroke="#4f46e5"/>
+  <text x="1135" y="140" class="label">Clean test</text>
+  <text x="1135" y="170" class="text">locked human labels</text>
+  <text x="1135" y="190" class="text">normal performance</text>
+
+  <rect x="1110" y="255" width="260" height="105" class="box" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="1135" y="290" class="label">Noisy test view</text>
+  <text x="1135" y="320" class="text">same labels, noisy text</text>
+  <text x="1135" y="340" class="text">robustness performance</text>
+
+  <rect x="510" y="460" width="480" height="80" class="box" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="535" y="495" class="label">Decision rule</text>
+  <text x="535" y="522" class="text">Accept noise only if noisy robustness improves without hurting clean high-risk recall.</text>
+
+  <line x1="300" y1="207" x2="365" y2="157" class="arrow"/>
+  <line x1="300" y1="207" x2="365" y2="307" class="arrow"/>
+  <line x1="615" y1="157" x2="735" y2="195" class="arrow"/>
+  <line x1="615" y1="307" x2="735" y2="220" class="arrow"/>
+  <line x1="995" y1="207" x2="1110" y2="157" class="arrow"/>
+  <line x1="995" y1="207" x2="1110" y2="307" class="arrow"/>
+  <path d="M1240 360 C1240 435, 990 435, 990 500" class="arrow"/>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto">
+      <path d="M1,1 L10,5.5 L1,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font-family:Arial,sans-serif;font-size:30px;font-weight:700;fill:#0f172a}
+      .label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#0f172a}
+      .text{font-family:Arial,sans-serif;font-size:14px;fill:#334155}
+      .small{font-family:Arial,sans-serif;font-size:13px;fill:#475569}
+      .box{stroke-width:2;rx:10}
+      .arrow{stroke:#334155;stroke-width:2.4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1500" height="620" fill="#ffffff"/>
+  <text x="80" y="60" class="title">Judging and Evaluation Pipeline</text>
+  <text x="80" y="90" class="small">Teacher outputs are filtered before training; student predictions are evaluated on dev and locked test data.</text>
+
+  <rect x="80" y="150" width="220" height="105" class="box" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="105" y="185" class="label">Teacher outputs</text>
+  <text x="105" y="215" class="text">3 runs per post</text>
+  <text x="105" y="235" class="text">majority label selected</text>
+
+  <rect x="375" y="150" width="220" height="105" class="box" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="400" y="185" class="label">Rubric judge</text>
+  <text x="400" y="215" class="text">score evidence, label,</text>
+  <text x="400" y="235" class="text">rationale, hallucination</text>
+
+  <rect x="670" y="150" width="220" height="105" class="box" fill="#ecfdf5" stroke="#059669"/>
+  <text x="695" y="185" class="label">Quality gates</text>
+  <text x="695" y="215" class="text">accept, audit,</text>
+  <text x="695" y="235" class="text">or reject</text>
+
+  <rect x="965" y="150" width="220" height="105" class="box" fill="#f5f3ff" stroke="#7c3aed"/>
+  <text x="990" y="185" class="label">Human audit</text>
+  <text x="990" y="215" class="text">review high-risk</text>
+  <text x="990" y="235" class="text">and uncertain cases</text>
+
+  <rect x="350" y="370" width="260" height="105" class="box" fill="#fce7f3" stroke="#db2777"/>
+  <text x="375" y="405" class="label">Training data</text>
+  <text x="375" y="435" class="text">accepted + audited</text>
+  <text x="375" y="455" class="text">structured JSON labels</text>
+
+  <rect x="725" y="370" width="260" height="105" class="box" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="750" y="405" class="label">Student model</text>
+  <text x="750" y="435" class="text">fine-tuned to emit</text>
+  <text x="750" y="455" class="text">risk + evidence + rationale</text>
+
+  <rect x="1100" y="370" width="260" height="105" class="box" fill="#eef2ff" stroke="#4f46e5"/>
+  <text x="1125" y="405" class="label">Evaluation</text>
+  <text x="1125" y="435" class="text">dev for tuning</text>
+  <text x="1125" y="455" class="text">locked test for claims</text>
+
+  <line x1="300" y1="202" x2="375" y2="202" class="arrow"/>
+  <line x1="595" y1="202" x2="670" y2="202" class="arrow"/>
+  <line x1="890" y1="202" x2="965" y2="202" class="arrow"/>
+  <path d="M780 255 C780 320, 480 320, 480 370" class="arrow"/>
+  <path d="M1075 255 C1075 330, 480 330, 480 370" class="arrow"/>
+  <line x1="610" y1="422" x2="725" y2="422" class="arrow"/>
+  <line x1="985" y1="422" x2="1100" y2="422" class="arrow"/>
+
+  <rect x="90" y="540" width="1320" height="44" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="115" y="568" class="small">Rule: teacher labels are training supervision. Final results should use human-reviewed labels, especially for high-risk cases.</text>
+</svg>

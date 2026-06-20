@@ -1,0 +1,83 @@
+{
+  "name": "triage_auxiliary_label",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "risk_tier",
+      "confidence",
+      "evidence_spans",
+      "risk_factors",
+      "protective_factors",
+      "cssrs_axes",
+      "clinical_rationale",
+      "plain_language_summary",
+      "recommended_next_step",
+      "escalation_required",
+      "uncertainty_flags"
+    ],
+    "properties": {
+      "risk_tier": {
+        "type": "integer",
+        "enum": [0, 1, 2, 3],
+        "description": "0=no acute crisis, 1=low risk, 2=moderate risk, 3=high/imminent risk"
+      },
+      "confidence": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "evidence_spans": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      },
+      "risk_factors": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "protective_factors": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "cssrs_axes": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ideation", "behavior", "intensity", "lethality", "precipitants"],
+        "properties": {
+          "ideation": { "type": "string" },
+          "behavior": { "type": "string" },
+          "intensity": { "type": "string" },
+          "lethality": { "type": "string" },
+          "precipitants": { "type": "string" }
+        }
+      },
+      "clinical_rationale": {
+        "type": "string"
+      },
+      "plain_language_summary": {
+        "type": "string"
+      },
+      "recommended_next_step": {
+        "type": "string",
+        "enum": ["Supportive", "Professional support", "Urgent support", "Emergency escalation", "Human review"]
+      },
+      "escalation_required": {
+        "type": "boolean"
+      },
+      "uncertainty_flags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

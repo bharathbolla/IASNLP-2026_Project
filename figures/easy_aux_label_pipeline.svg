@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto">
+      <path d="M1,1 L10,5.5 L1,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font-family:Arial,sans-serif;font-size:30px;font-weight:700;fill:#0f172a}
+      .label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#0f172a}
+      .text{font-family:Arial,sans-serif;font-size:14px;fill:#334155}
+      .small{font-family:Arial,sans-serif;font-size:13px;fill:#475569}
+      .box{stroke-width:2;rx:10}
+      .arrow{stroke:#334155;stroke-width:2.4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1500" height="620" fill="#ffffff"/>
+  <text x="90" y="60" class="title">How Auxiliary Labels Are Generated</text>
+  <text x="90" y="90" class="small">The teacher creates structured rationale labels; filters and humans decide what becomes training data.</text>
+
+  <rect x="95" y="145" width="175" height="110" class="box" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="120" y="180" class="label">Raw posts</text>
+  <text x="120" y="210" class="text">C-SSRS, CLPsych,</text>
+  <text x="120" y="230" class="text">mentor data</text>
+
+  <rect x="325" y="145" width="205" height="110" class="box" fill="#ecfdf5" stroke="#059669"/>
+  <text x="350" y="180" class="label">Clean data</text>
+  <text x="350" y="210" class="text">de-identify, dedupe,</text>
+  <text x="350" y="230" class="text">remove unusable text</text>
+
+  <rect x="585" y="145" width="215" height="110" class="box" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="600" y="180" class="label">Primary teacher</text>
+  <text x="600" y="210" class="text">generate JSON with</text>
+  <text x="600" y="230" class="text">risk + evidence + rationale</text>
+
+  <rect x="855" y="145" width="225" height="110" class="box" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="880" y="180" class="label">Automatic checks</text>
+  <text x="880" y="210" class="text">schema, exact spans,</text>
+  <text x="880" y="230" class="text">safety rules</text>
+
+  <rect x="1135" y="145" width="230" height="110" class="box" fill="#f5f3ff" stroke="#7c3aed"/>
+  <text x="1170" y="180" class="label">Judge + human audit</text>
+  <text x="1170" y="210" class="text">score groundedness</text>
+  <text x="1170" y="230" class="text">review risky cases</text>
+
+  <line x1="270" y1="200" x2="325" y2="200" class="arrow"/>
+  <line x1="530" y1="200" x2="585" y2="200" class="arrow"/>
+  <line x1="800" y1="200" x2="855" y2="200" class="arrow"/>
+  <line x1="1080" y1="200" x2="1135" y2="200" class="arrow"/>
+
+  <rect x="275" y="355" width="260" height="115" class="box" fill="#fce7f3" stroke="#db2777"/>
+  <text x="300" y="390" class="label">Accepted aux labels</text>
+  <text x="300" y="420" class="text">risk tier, evidence, factors,</text>
+  <text x="300" y="440" class="text">rationale, summary, next step</text>
+
+  <rect x="675" y="355" width="250" height="115" class="box" fill="#eef2ff" stroke="#4f46e5"/>
+  <text x="700" y="390" class="label">Student training</text>
+  <text x="700" y="420" class="text">simple SFT first, then</text>
+  <text x="700" y="440" class="text">auxiliary losses if needed</text>
+
+  <rect x="1065" y="355" width="265" height="115" class="box" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="1090" y="390" class="label">Locked evaluation</text>
+  <text x="1090" y="420" class="text">human-labeled test set</text>
+  <text x="1090" y="440" class="text">never teacher-generated</text>
+
+  <line x1="1260" y1="255" x2="1260" y2="305" class="arrow"/>
+  <path d="M1260 305 C1260 330, 405 325, 405 355" class="arrow"/>
+  <line x1="535" y1="412" x2="675" y2="412" class="arrow"/>
+  <line x1="925" y1="412" x2="1065" y2="412" class="arrow"/>
+
+  <rect x="90" y="530" width="1320" height="45" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="112" y="558" class="small">Key rule: teacher labels are noisy supervision. Final claims come from the human-labeled locked test set.</text>
+</svg>

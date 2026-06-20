@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto">
+      <path d="M1,1 L10,5.5 L1,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font-family:Arial,sans-serif;font-size:30px;font-weight:700;fill:#0f172a}
+      .label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#0f172a}
+      .text{font-family:Arial,sans-serif;font-size:14px;fill:#334155}
+      .small{font-family:Arial,sans-serif;font-size:13px;fill:#475569}
+      .box{stroke-width:2;rx:10}
+      .diamond{stroke-width:2}
+      .arrow{stroke:#334155;stroke-width:2.4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1500" height="660" fill="#ffffff"/>
+  <text x="80" y="60" class="title">Quality Gate Logic</text>
+  <text x="80" y="90" class="small">The gate combines deterministic checks, judge scores, and human review rules.</text>
+
+  <rect x="90" y="170" width="210" height="90" class="box" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="115" y="205" class="label">Candidate label</text>
+  <text x="115" y="235" class="text">structured JSON</text>
+
+  <polygon points="475,145 625,215 475,285 325,215" class="diamond" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="405" y="207" class="label">Exact evidence?</text>
+  <text x="415" y="232" class="text">schema valid?</text>
+
+  <polygon points="790,145 940,215 790,285 640,215" class="diamond" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="720" y="207" class="label">Judge score</text>
+  <text x="735" y="232" class="text">at least 7?</text>
+
+  <polygon points="1105,145 1255,215 1105,285 955,215" class="diamond" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="1026" y="207" class="label">High risk or</text>
+  <text x="1010" y="232" class="text">uncertain/disagreed?</text>
+
+  <rect x="250" y="410" width="240" height="90" class="box" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="275" y="445" class="label">Reject/regenerate</text>
+  <text x="275" y="475" class="text">bad JSON, weak evidence,</text>
+  <text x="275" y="493" class="text">score below 7</text>
+
+  <rect x="630" y="410" width="240" height="90" class="box" fill="#ecfdf5" stroke="#059669"/>
+  <text x="655" y="445" class="label">Accept auto</text>
+  <text x="655" y="475" class="text">stable, grounded,</text>
+  <text x="655" y="493" class="text">low/moderate risk</text>
+
+  <rect x="1010" y="410" width="240" height="90" class="box" fill="#f5f3ff" stroke="#7c3aed"/>
+  <text x="1035" y="445" class="label">Human audit</text>
+  <text x="1035" y="475" class="text">tier 3, escalation,</text>
+  <text x="1035" y="493" class="text">or model disagreement</text>
+
+  <line x1="300" y1="215" x2="325" y2="215" class="arrow"/>
+  <line x1="625" y1="215" x2="640" y2="215" class="arrow"/>
+  <line x1="940" y1="215" x2="955" y2="215" class="arrow"/>
+  <path d="M475 285 C475 340, 370 350, 370 410" class="arrow"/>
+  <path d="M790 285 C790 340, 370 350, 370 410" class="arrow"/>
+  <path d="M1105 285 C1105 350, 1130 350, 1130 410" class="arrow"/>
+  <path d="M1105 285 C1105 350, 750 350, 750 410" class="arrow"/>
+
+  <text x="635" y="202" class="small">yes</text>
+  <text x="948" y="202" class="small">yes</text>
+  <text x="450" y="335" class="small">no</text>
+  <text x="765" y="335" class="small">no</text>
+  <text x="1095" y="335" class="small">yes</text>
+  <text x="930" y="350" class="small">no</text>
+</svg>

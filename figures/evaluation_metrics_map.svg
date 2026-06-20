@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <style>
+    .title{font-family:Arial,sans-serif;font-size:30px;font-weight:700;fill:#0f172a}
+    .label{font-family:Arial,sans-serif;font-size:19px;font-weight:700;fill:#0f172a}
+    .text{font-family:Arial,sans-serif;font-size:15px;fill:#334155}
+    .small{font-family:Arial,sans-serif;font-size:13px;fill:#475569}
+    .box{stroke-width:2;rx:10}
+  </style>
+  <rect width="1500" height="620" fill="#ffffff"/>
+  <text x="80" y="60" class="title">Evaluation Metrics Map</text>
+  <text x="80" y="90" class="small">Use all three groups: accuracy alone is not enough for crisis triage.</text>
+
+  <rect x="100" y="155" width="360" height="290" class="box" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="130" y="195" class="label">Classification</text>
+  <text x="130" y="235" class="text">- macro-F1</text>
+  <text x="130" y="265" class="text">- weighted-F1</text>
+  <text x="130" y="295" class="text">- per-tier precision/recall</text>
+  <text x="130" y="325" class="text">- confusion matrix</text>
+  <text x="130" y="355" class="text">- quadratic weighted kappa</text>
+
+  <rect x="570" y="155" width="360" height="290" class="box" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="600" y="195" class="label">Safety</text>
+  <text x="600" y="235" class="text">- tier-3 recall</text>
+  <text x="600" y="265" class="text">- under-triage count</text>
+  <text x="600" y="295" class="text">- severe under-triage</text>
+  <text x="600" y="325" class="text">- mean severity error</text>
+  <text x="600" y="355" class="text">- high-risk miss audit</text>
+
+  <rect x="1040" y="155" width="360" height="290" class="box" fill="#ecfdf5" stroke="#059669"/>
+  <text x="1070" y="195" class="label">Rationale and Evidence</text>
+  <text x="1070" y="235" class="text">- evidence span precision</text>
+  <text x="1070" y="265" class="text">- evidence span recall</text>
+  <text x="1070" y="295" class="text">- evidence span F1</text>
+  <text x="1070" y="325" class="text">- unsupported-claim rate</text>
+  <text x="1070" y="355" class="text">- label-rationale consistency</text>
+
+  <rect x="100" y="510" width="1300" height="48" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="125" y="540" class="small">Primary safety target: minimize under-triage, especially true tier 3 predicted as tier 0 or 1.</text>
+</svg>

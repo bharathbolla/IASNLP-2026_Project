@@ -1,0 +1,26 @@
+# Dataset and generated data artifacts
+datasets/
+data/
+
+# Python cache / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local logs and temporary outputs
+*.log
+tmp/
+temp/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Microsoft Office temporary lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+  <defs>
+    <marker id="arrow2" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto">
+      <path d="M1,1 L10,5.5 L1,10 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .title{font-family:Arial,sans-serif;font-size:30px;font-weight:700;fill:#0f172a}
+      .label{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#0f172a}
+      .text{font-family:Arial,sans-serif;font-size:14px;fill:#334155}
+      .small{font-family:Arial,sans-serif;font-size:13px;fill:#475569}
+      .box{stroke-width:2;rx:10}
+      .arrow{stroke:#334155;stroke-width:2.4;fill:none;marker-end:url(#arrow2)}
+    </style>
+  </defs>
+  <rect width="1500" height="620" fill="#ffffff"/>
+  <text x="55" y="60" class="title">Teacher Panel: Why More Than One Model?</text>
+  <text x="55" y="90" class="small">Different teachers catch different failure modes. Humans review the riskiest outputs.</text>
+
+  <rect x="80" y="185" width="245" height="115" class="box" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="105" y="220" class="label">Input post</text>
+  <text x="105" y="250" class="text">one cleaned, de-identified</text>
+  <text x="105" y="270" class="text">mental-health text</text>
+
+  <rect x="420" y="90" width="280" height="115" class="box" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="445" y="125" class="label">Primary teacher</text>
+  <text x="445" y="155" class="text">generates full auxiliary JSON</text>
+  <text x="445" y="175" class="text">3 runs per post</text>
+
+  <rect x="420" y="250" width="280" height="115" class="box" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="445" y="285" class="label">Disagreement teacher</text>
+  <text x="445" y="315" class="text">checks whether the tier</text>
+  <text x="445" y="335" class="text">matches independently</text>
+
+  <rect x="795" y="170" width="280" height="115" class="box" fill="#ecfdf5" stroke="#059669"/>
+  <text x="820" y="205" class="label">Rubric judge</text>
+  <text x="820" y="235" class="text">scores evidence support,</text>
+  <text x="820" y="255" class="text">consistency, hallucination risk</text>
+
+  <rect x="1170" y="170" width="245" height="115" class="box" fill="#f5f3ff" stroke="#7c3aed"/>
+  <text x="1195" y="205" class="label">Human audit</text>
+  <text x="1195" y="235" class="text">reviews high risk, low score,</text>
+  <text x="1195" y="255" class="text">or disagreement cases</text>
+
+  <line x1="325" y1="235" x2="420" y2="148" class="arrow"/>
+  <line x1="325" y1="250" x2="420" y2="308" class="arrow"/>
+  <line x1="700" y1="148" x2="795" y2="215" class="arrow"/>
+  <line x1="700" y1="308" x2="795" y2="240" class="arrow"/>
+  <line x1="1075" y1="228" x2="1170" y2="228" class="arrow"/>
+
+  <rect x="185" y="430" width="1130" height="90" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="215" y="465" class="label">Acceptance rule</text>
+  <text x="215" y="495" class="text">Use the example for training only if it passes schema checks, has exact evidence spans, gets a good judge score, and is not flagged by human audit.</text>
+</svg>

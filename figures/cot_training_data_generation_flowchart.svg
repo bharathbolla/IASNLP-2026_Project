@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 34px; font-weight: 700; fill: #0f172a; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 18px; fill: #475569; }
+      .section { font-family: Arial, sans-serif; font-size: 17px; font-weight: 700; fill: #334155; letter-spacing: 0; }
+      .box-title { font-family: Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .box-text { font-family: Arial, sans-serif; font-size: 14px; fill: #334155; }
+      .tiny { font-family: Arial, sans-serif; font-size: 12px; fill: #475569; }
+      .arrow { stroke: #334155; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+      .soft-arrow { stroke: #64748b; stroke-width: 2; fill: none; stroke-dasharray: 6 5; marker-end: url(#arrow); }
+      .lane { fill: #f8fafc; stroke: #dbe4ee; stroke-width: 1.5; }
+      .input { fill: #e0f2fe; stroke: #0284c7; stroke-width: 1.8; filter: url(#shadow); }
+      .process { fill: #ecfdf5; stroke: #059669; stroke-width: 1.8; filter: url(#shadow); }
+      .teacher { fill: #fff7ed; stroke: #ea580c; stroke-width: 1.8; filter: url(#shadow); }
+      .check { fill: #fefce8; stroke: #ca8a04; stroke-width: 1.8; filter: url(#shadow); }
+      .human { fill: #f5f3ff; stroke: #7c3aed; stroke-width: 1.8; filter: url(#shadow); }
+      .output { fill: #fce7f3; stroke: #db2777; stroke-width: 1.8; filter: url(#shadow); }
+      .eval { fill: #eef2ff; stroke: #4f46e5; stroke-width: 1.8; filter: url(#shadow); }
+      .reject { fill: #fee2e2; stroke: #dc2626; stroke-width: 1.8; filter: url(#shadow); }
+      .note { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.4; filter: url(#shadow); }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1120" fill="#ffffff"/>
+
+  <text x="70" y="65" class="title">Synthetic Structured CoT Training Data Generation</text>
+  <text x="70" y="96" class="subtitle">How raw mental-health posts become evidence-grounded rationale JSON for student-model auxiliary training</text>
+
+  <rect x="55" y="130" width="1690" height="165" rx="8" class="lane"/>
+  <text x="75" y="160" class="section">1. Source and split data</text>
+
+  <rect x="90" y="185" width="230" height="75" rx="8" class="input"/>
+  <text x="110" y="213" class="box-title">Candidate posts</text>
+  <text x="110" y="238" class="box-text">C-SSRS, CLPsych,</text>
+  <text x="110" y="256" class="box-text">mentor-curated data</text>
+
+  <rect x="380" y="185" width="245" height="75" rx="8" class="process"/>
+  <text x="400" y="213" class="box-title">Privacy + quality filter</text>
+  <text x="400" y="238" class="box-text">de-identify, dedupe,</text>
+  <text x="400" y="256" class="box-text">remove unusable text</text>
+
+  <rect x="700" y="178" width="210" height="90" rx="8" class="check"/>
+  <text x="720" y="207" class="box-title">Split decision</text>
+  <text x="720" y="232" class="box-text">train candidates</text>
+  <text x="720" y="250" class="box-text">vs locked test set</text>
+
+  <rect x="1030" y="170" width="265" height="105" rx="8" class="eval"/>
+  <text x="1050" y="201" class="box-title">Locked gold test set</text>
+  <text x="1050" y="226" class="box-text">human-labeled only</text>
+  <text x="1050" y="244" class="box-text">never teacher-generated</text>
+  <text x="1050" y="262" class="box-text">used only at final evaluation</text>
+
+  <line x1="320" y1="222" x2="380" y2="222" class="arrow"/>
+  <line x1="625" y1="222" x2="700" y2="222" class="arrow"/>
+  <line x1="910" y1="222" x2="1030" y2="222" class="arrow"/>
+
+  <rect x="55" y="325" width="1690" height="215" rx="8" class="lane"/>
+  <text x="75" y="355" class="section">2. Generate structured CoT/rationale candidates</text>
+
+  <rect x="125" y="395" width="260" height="90" rx="8" class="teacher"/>
+  <text x="145" y="425" class="box-title">Teacher prompt</text>
+  <text x="145" y="450" class="box-text">4-tier rubric + JSON schema</text>
+  <text x="145" y="468" class="box-text">few-shot examples</text>
+
+  <rect x="485" y="395" width="285" height="90" rx="8" class="teacher"/>
+  <text x="505" y="425" class="box-title">Primary teacher generation</text>
+  <text x="505" y="450" class="box-text">3 runs per post</text>
+  <text x="505" y="468" class="box-text">low temperature, strict JSON</text>
+
+  <rect x="870" y="382" width="360" height="116" rx="8" class="output"/>
+  <text x="890" y="412" class="box-title">Structured CoT JSON</text>
+  <text x="890" y="437" class="box-text">risk_tier, confidence, evidence_spans</text>
+  <text x="890" y="455" class="box-text">risk/protective factors, rationale</text>
+  <text x="890" y="473" class="box-text">plain summary, next step, escalation flag</text>
+
+  <rect x="1345" y="382" width="300" height="116" rx="8" class="note"/>
+  <text x="1365" y="412" class="box-title">Important framing</text>
+  <text x="1365" y="437" class="box-text">This is not long hidden reasoning.</text>
+  <text x="1365" y="455" class="box-text">It is short, evidence-grounded</text>
+  <text x="1365" y="473" class="box-text">rationale data for supervision.</text>
+
+  <line x1="805" y1="268" x2="255" y2="395" class="soft-arrow"/>
+  <line x1="385" y1="440" x2="485" y2="440" class="arrow"/>
+  <line x1="770" y1="440" x2="870" y2="440" class="arrow"/>
+  <line x1="1230" y1="440" x2="1345" y2="440" class="arrow"/>
+
+  <rect x="55" y="570" width="1690" height="240" rx="8" class="lane"/>
+  <text x="75" y="600" class="section">3. Evaluate teacher outputs before accepting them as training data</text>
+
+  <rect x="95" y="635" width="270" height="105" rx="8" class="check"/>
+  <text x="115" y="665" class="box-title">Schema checks</text>
+  <text x="115" y="690" class="box-text">valid JSON, required fields</text>
+  <text x="115" y="708" class="box-text">no diagnosis or therapy advice</text>
+  <text x="115" y="726" class="box-text">non-empty exact evidence spans</text>
+
+  <rect x="455" y="635" width="270" height="105" rx="8" class="teacher"/>
+  <text x="475" y="665" class="box-title">Disagreement teacher</text>
+  <text x="475" y="690" class="box-text">independent model checks tier</text>
+  <text x="475" y="708" class="box-text">flags mismatch or uncertainty</text>
+
+  <rect x="815" y="635" width="270" height="105" rx="8" class="teacher"/>
+  <text x="835" y="665" class="box-title">Rubric judge</text>
+  <text x="835" y="690" class="box-text">scores evidence support</text>
+  <text x="835" y="708" class="box-text">label consistency</text>
+  <text x="835" y="726" class="box-text">hallucination risk</text>
+
+  <rect x="1175" y="635" width="270" height="105" rx="8" class="check"/>
+  <text x="1195" y="665" class="box-title">NLI + readability</text>
+  <text x="1195" y="690" class="box-text">rationale entails label</text>
+  <text x="1195" y="708" class="box-text">plain summary is simple</text>
+
+  <rect x="1525" y="626" width="170" height="125" rx="8" class="human"/>
+  <text x="1545" y="657" class="box-title">Human audit</text>
+  <text x="1545" y="682" class="box-text">all high-risk</text>
+  <text x="1545" y="700" class="box-text">all disagreements</text>
+  <text x="1545" y="718" class="box-text">low-score cases</text>
+
+  <line x1="1050" y1="498" x2="230" y2="635" class="soft-arrow"/>
+  <line x1="365" y1="687" x2="455" y2="687" class="arrow"/>
+  <line x1="725" y1="687" x2="815" y2="687" class="arrow"/>
+  <line x1="1085" y1="687" x2="1175" y2="687" class="arrow"/>
+  <line x1="1445" y1="687" x2="1525" y2="687" class="arrow"/>
+
+  <rect x="55" y="840" width="1690" height="210" rx="8" class="lane"/>
+  <text x="75" y="870" class="section">4. Accept, reject, train, and evaluate</text>
+
+  <rect x="100" y="915" width="260" height="85" rx="8" class="output"/>
+  <text x="120" y="945" class="box-title">Accepted example</text>
+  <text x="120" y="970" class="box-text">clean JSON + supported evidence</text>
+  <text x="120" y="988" class="box-text">safe rationale and next step</text>
+
+  <rect x="455" y="915" width="250" height="85" rx="8" class="reject"/>
+  <text x="475" y="945" class="box-title">Rejected example</text>
+  <text x="475" y="970" class="box-text">regenerate if budget remains</text>
+  <text x="475" y="988" class="box-text">otherwise drop from training</text>
+
+  <rect x="800" y="904" width="300" height="108" rx="8" class="process"/>
+  <text x="820" y="934" class="box-title">Student training record</text>
+  <text x="820" y="959" class="box-text">main loss: risk_tier</text>
+  <text x="820" y="977" class="box-text">auxiliary losses: evidence, factors,</text>
+  <text x="820" y="995" class="box-text">rationale, summary, calibration</text>
+
+  <rect x="1205" y="904" width="330" height="108" rx="8" class="eval"/>
+  <text x="1225" y="934" class="box-title">Final evaluation</text>
+  <text x="1225" y="959" class="box-text">locked human-labeled test set</text>
+  <text x="1225" y="977" class="box-text">macro-F1, high-risk recall</text>
+  <text x="1225" y="995" class="box-text">under-triage, evidence support</text>
+
+  <line x1="1610" y1="751" x2="230" y2="915" class="arrow"/>
+  <line x1="1610" y1="751" x2="580" y2="915" class="soft-arrow"/>
+  <line x1="360" y1="957" x2="800" y2="957" class="arrow"/>
+  <line x1="1100" y1="957" x2="1205" y2="957" class="arrow"/>
+  <line x1="1162" y1="275" x2="1370" y2="904" class="soft-arrow"/>
+
+  <rect x="70" y="1048" width="1660" height="46" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="92" y="1077" class="tiny">Example accepted output: risk_tier=3; evidence_spans=["I have a bottle of pills", "take them tonight"]; risk_factors=["access to means", "time-bound intent"]; protective_factors=["sister is nearby"]; next_step="Emergency escalation".</text>
+</svg>

@@ -6,10 +6,22 @@ This folder contains dependency-light scripts for generating structured auxiliar
 
 - `schema.json`: JSON schema for the generated auxiliary label.
 - `prompts/primary_teacher_system.md`: primary generation prompt.
-- `prompts/judge_system.md`: rubric judge prompt.
 - `generate_aux_labels.py`: calls a primary teacher model 1-3 times per row and stores majority labels.
-- `judge_aux_labels.py`: calls a second model to score groundedness and safety.
 - `build_student_sft_jsonl.py`: converts accepted labels into chat-format SFT JSONL.
+- `prepare_erisk26_task2.py` / `.ps1`: converts eRisk26 Task 2 subject histories into CSV records.
+
+Judging generated teacher labels is handled separately in:
+
+```text
+src/teacher_judging/
+```
+
+Student model prediction and evaluation is handled separately in:
+
+```text
+src/student_predictions/
+src/evaluation/
+```
 
 ## API Compatibility
 
@@ -91,36 +103,3 @@ python src/teacher_labeling/generate_aux_labels.py `
 ```
 
 Use eRisk26 Task 2 as auxiliary depression-context data. Its labels are not suicide/crisis triage labels.
-
-## Judging and Quality Gates
-
-After `generate_aux_labels.py`, judge the candidate labels:
-
-```powershell
-python src/teacher_labeling/judge_aux_labels.py `
-  --input data/synthetic_aux/raw_primary_runs.jsonl `
-  --output data/synthetic_aux/judged_candidates.jsonl `
-  --model "anthropic/claude-sonnet-4" `
-  --base-url "https://openrouter.ai/api/v1" `
-  --api-key-env OPENROUTER_API_KEY
-```
-
-Apply deterministic quality gates:
-
-```powershell
-python src/teacher_labeling/apply_quality_gates.py `
-  --input data/synthetic_aux/judged_candidates.jsonl `
-  --output-dir data/synthetic_aux/gated `
-  --min-score 7 `
-  --audit-score 8
-```
-
-Export human-review cases:
-
-```powershell
-python src/teacher_labeling/export_human_audit_sheet.py `
-  --input data/synthetic_aux/gated/human_audit_queue.jsonl `
-  --output data/synthetic_aux/gated/human_audit_sheet.csv
-```
-
-All tier-3 and escalation-required examples should be human-reviewed before being used for training.

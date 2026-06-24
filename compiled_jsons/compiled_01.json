@@ -1,0 +1,3206 @@
+[
+  {
+    "timeline_id": "0cac13e357",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "8f240451e8",
+        "date": "02-09-2019, 01:45:02",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I'm mean",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "13a844f48c",
+        "date": "04-09-2019, 05:16:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I'm not okay I honestly wish that I were just not aware of other people and their relationships. I wish that people didn't take my kindness towards strangers and others as naivety and immaturity.  I wish that people wouldn't hurt others. I wish that people would stop hurting me. I wish people would stop lying. I wish people would fix their problems. I wish more people went to therapy.   I wish someone in this world actually liked me. I wish someone wanted to hold my hand and hold me in bed. I wish someone would look at me like I was the world to them and they would be damn sorry if they lost that world. I wish that I will stop having one sided conversations on dating apps.  I wish that I didn't have these thoughts. I wish that I want to make my life worth living. I wish that I didn't wish I were dead.",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "my kindness towards strangers and others"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I wish that I didn't have these thoughts. I wish that I want to make my life worth living. I wish that I didn't wish I were dead."
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I wish that people didn't take my kindness towards strangers and others as naivety and immaturity.  I wish that people wouldn't hurt others. I wish that people would stop hurting me. I wish people would stop lying. I wish people would fix their problems. I wish more people went to therapy.   I wish someone in this world actually liked me. I wish someone wanted to hold my hand and hold me in bed."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "751ec3360a",
+        "date": "05-09-2019, 05:12:27",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "[HELP!] Calling All Animal Fosters from around the Orange County area!\nI am in desperate need of some help right now.      I have recently found a bundle of 7 or so kittens hanging around a dangerous abandoned lot with ages ranging from 2 to 7 months.   Since finding them, I have started to feed and water them in the hopes that one of them will trust me enough to get close to me. My initial plan was TNR but, due to the fact that they're young, I want them to have a better future in a home with a loving family.      I unfortunately cannot be that person since the place I live in right now does not allow animals and I am not staying in California forever. I've tried contacting different TNR and foster programs for some help or assistance during the matter but most places are already full or have too many projects to take care of.  I'm a poor college girl but I want to try my best to get these cats a better life out of that lot...  Would anyone be willing to help me or give me some advice on what to do? I'm desperate.",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(5) Content, happy, joy, hopeful",
+              "highlighted_evidence": "hopes that one of them will trust me enough to get close to me"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I've tried contacting different TNR and foster programs for some help or assistance"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I'm a poor college girl but I want to try my best to get these cats a better life out of that lot."
+            },
+            "D": {
+              "Category": "(3) Autonomy and adaptive control",
+              "highlighted_evidence": "Would anyone be willing to help me or give me some advice on what to do?"
+            },
+            "Presence": 4
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I am in desperate need of some help right now."
+            },
+            "Presence": 2
+          }
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "511507453a",
+        "date": "08-09-2019, 22:25:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I think I need to work on my self esteem... So I went on a date recently and I actually, for the first time in a couple years, had a really great time.   I was relaxed, I was myself and we seemed to hit it off pretty well, I thought.  I sent him a text after he dropped me off saying that I had a good time and that I really wanted to hang out with him again when he was free.  He didn't really respond and now I'm doubting myself thinking I already messed something up. He could've been busy with work or something but my anxiety is telling me that I'm annoying him and that I should stop thinking about that second date.  My roommates and friends say I should just relax. Idk... how do I help better myself whenever I feel this way?",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "So I went on a date recently and I actually, for the first time in a couple years, had a really great time."
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I sent him a text after he dropped me off saying that I had a good time and that I really wanted to hang out with him again when he was free."
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "how do I help better myself whenever I feel this way?"
+            },
+            "Presence": 4
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "my anxiety is telling me that I'm annoying him and that I should stop thinking about that second date."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I'm doubting myself thinking I already messed something up."
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "b08cd9e3f2",
+        "date": "09-09-2019, 21:18:38",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Are there any Orange County cat foster homes that are willing to help find these babies a home? Please?",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "are willing to help find these babies a home"
+            },
+            "D": {
+              "Category": "(3) Autonomy and adaptive control",
+              "highlighted_evidence": "Are there any Orange County cat foster homes that are willing to help find these babies a home?"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "Please"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "a7f3e65bd7",
+        "date": "11-09-2019, 21:11:33",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I found these 7 cats near an abandoned lot and I haven't had much success in getting TNR specialists to help me out with trapping them. Are there any TNR specialists to help me out with them?",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "D": {
+              "Category": "(3) Autonomy and adaptive control",
+              "highlighted_evidence": "Are there any TNR specialists to help me out with them?"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I haven't had much success"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I haven't had much success in getting TNR specialists to help me out"
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "cc29e0c8f1",
+        "date": "01-10-2019, 17:55:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I'm not your relationship therapist I am especially not going to give you relationship advice if YOU COMPLETELY IGNORE IT",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(10) Angry (aggression), disgust, contempt",
+              "highlighted_evidence": "I am especially not going to give you relationship advice if YOU COMPLETELY IGNORE IT"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I am especially not going to give you relationship advice if YOU COMPLETELY IGNORE IT"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "6d0de5af51",
+        "date": "02-10-2019, 21:18:26",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "When the doctors said that my pills would make my depression worse... they weren't kidding\nI feel like the world, as of now, is full of nothing but drama and lies and cheats. I have nothing ahead of me. I have one more year left of college and then what? Struggling financially until the world caves in on itself?  Will everyone I meet just be manipulative attention seekers and only take advantage of the kindness or interest I've showed them?   I have nothing to look forward to; I have no opportunities in business and in love. Why do I even try.  Maybe I'm better off living alone.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "the kindness or interest I've showed them"
+            },
+            "C-O": {
+              "Category": "(3) Perception of the other as facilitating autonomy needs",
+              "highlighted_evidence": "When the doctors said that my pills would make my depression worse... they weren't kidding"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "I have nothing to look forward to; I have no opportunities in business and in love. Why do I even try.  Maybe I'm better off living alone."
+            },
+            "C-O": {
+              "Category": "(4) Perception of the other as blocking autonomy needs",
+              "highlighted_evidence": "Will everyone I meet just be manipulative attention seekers and only take advantage of the kindness or interest I've showed them?"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "377dced8a9",
+        "date": "02-10-2019, 21:38:00",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "I should probably tell my therapist I've had thoughts of hurting myself Rough week. Rough life, whatever. I feel like I have nothing and no one to bring happiness to my life.      Hell, I work at the fucking *happiest place on earth* and I still can't get out of bed and take my pills at a decent time.      Some people might think, \"Oh, but you're at the theme park of everyone's dreams! You have loving friends and family and a start of a promising career! You shouldn't be sad. People out there have it worse!\"   &amp;#x200B;  I haven't reached the point of actually hurting myself but one failed relationship has almost brought me to that point. I'm not going to be good enough for anyone. People will use me, my parents will be disappointed in me, I haven't got the money to live on my own anywhere. I couldn't even afford to feed myself some days!  &amp;#x200B;  How in the hell am I supposed to live in a world that wants lower class citizens like me to fail?",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "I should probably tell my therapist I've had thoughts of hurting myself Rough week"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "I feel like I have nothing and no one to bring happiness to my life."
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I still can't get out of bed and take my pills at a decent time."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "How in the hell am I supposed to live in a world that wants lower class citizens like me to fail?"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "People will use me, my parents will be disappointed in me"
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": ". I'm not going to be good enough for anyone. People will use me, my parents will be disappointed in me,"
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 10,
+        "post_id": "ffb2e46acf",
+        "date": "09-10-2019, 16:03:37",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "My sister caught my son mid yawn. This never fails to make me laugh",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 11,
+        "post_id": "1b9826cf0a",
+        "date": "21-10-2019, 18:38:25",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "This lowkey became viral in my work group so I thought I'd share it here",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 12,
+        "post_id": "aa43c43298",
+        "date": "31-10-2019, 23:12:28",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "You could say my sister is strange and unusual",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 13,
+        "post_id": "0649896878",
+        "date": "31-10-2019, 23:20:30",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "[Photographer] my sister is strange and unusual this Halloween",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "15564c5c62",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "09b7c384fd",
+        "date": "03-11-2019, 00:05:18",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "help me feel better\ni don't understand why i feel so bad lately. i swear i was eating a little more than normal. i keep eating today because i just want to feel okay enough to get some fucking errands done. i feel so awful i keep eating shit and then waiting and waiting for it to hit my system and make me feel more awake but it won't happen. how much do i need to it??? i don't feel like eating more yet i have to keep making myself eat more but it won't help. i feel tired. i feel like i could fall asleep mid walking. i don't want to eat right now. i keep eating small amounts of different things but it's giving me anxiety bc it makes me feel like i am binging and as if i am not in control right now but that's not really true?? since i DONT actually really feel like eating right now and i am kind of making myself do it just because i really need to go to the store right now. i feel cold and like my head is being squeezed. i ran too much today probably. 8 miles. i don't want to eat too much and get a stomach ache right now. i don't want to feel too full or bloated. part of me thinks i should eat some junk food bc maybe i need it??? but then i don't want to get gas or anything and be uncomfortable??? can someone give me any advice at all. i have been absolutely tripping these past 48 hours i keep having to remind myself i am sober.",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "can someone give me any advice at all"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "help me feel better"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "i feel so bad lately"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "i ran too much today probably. 8 miles."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "i don't want to eat right now. i keep eating small amounts of different things but it's giving me anxiety bc it makes me feel like i am binging and as if i am not in control"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "i feel so awful i keep eating shit and then waiting and waiting for it to hit my system and make me feel more awake but it won't happen. how much do i need to it??? i don't feel like eating more yet i have to keep making myself eat more but it won't help. i feel tired."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "16a89d299d",
+        "date": "04-11-2019, 01:09:01",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "im in survival mode please tip my scale\nthis weekend has been awful. i am sick. i am very weak. i have not been eating or sleeping enough and it has reached a point where im pretty sure i need to be hospitalized. i even ate more. friday and yesterday and today. i called off work friday and today. i have literally never done that once in my entire fucking life. i cannot help myself. i can't think straight. i keep thinking i should go to the hospital but i don't even know how i would get there. i don't think i can drive a car at all right now. i would call someone but i can't function enough to even do that. like i don't even know what i would say. i don't know what to say. i have no idea what is wrong with me or what has happened i keep thinking i may have been drugged i feel so incredibly fucked up. more fucked than times ive done shrooms and acid before i am literally in another dimension it is taking me so long to even make this post.   i think i am very close to death. like i think i could actually talk to god right now. if that makes sense. like i am barely even on this fucking planet. i feel like it is completely up to me whether i stay here or not. it is so surreal to be having this moment rn. you go your whole life wondering about your death and i think my moment is here. it is in my hands it is up to me. there is no other force with me no one is here to help me or tell me which one to pick. live or give up? i am so close i am 50/50 right now. i could go either way. my will to get better is not more than my will to give up. it just doesn't matter. and it is up to me. and it does not matter.",
+        "Well-being": 1,
+        "evidence": {
+          "adaptive-state": {
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "im in survival mode please tip my scale"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "live or give up? i am so close i am 50/50 right now. i could go either way."
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "i have not been eating or sleeping enough and it has reached a point where im pretty sure i need to be hospitalized."
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "i would call someone but i can't function enough to even do that. like i don't even know what i would say."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "i cannot help myself. i can't think straight."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "no one is here to help me or tell me which one to pick"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "my will to get better is not more than my will to give up. it just doesn't matter"
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "ecb1e568c1",
+        "date": "07-11-2019, 14:44:01",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "help me get to the hospital\nthis past week i have been so confused i think i need to go to the hospital. i don't want anyone to go with me because i am too scared and embarrassed i don't want to ask anyone i know about it so i am coming to reddit bc otherwise i will just continue to do nothing about it. idk how to even go to a doctor's appointment let alone a hospital let alone a psych ward. like i just got my own insurance for the first time. at my new job. i don't know if it has kicked in yet tho. i got hired in last month? or a month ago? idk. but like am i also still on my parents insurance too? i am a 21 yr old girl. would i be in the hospital overnight? multiple days? idk if that is convenient for me rn. i have two jobs. i never ever call off i called off at one on friday and the other on sunday. i don't want to take off any more time and i need to make money. would it cost me to go to the hospital ??? i am too broke. i dont know if it would be worth it to go. it's like im on acid but i didn't take acid so i kno that has to be serious. but at the same time i just want to ride this out and hope it goes away on it's own. just push thru the week and try to get a lot of sleep on saturday idk. idk how to go to the hospital idk where to go where to park what door to go into who to talk to what to say. i don't want anyone to find out. i don't know if it would be worth it at all i just want to give in and ride it out. ill either get better on my own or die and i really couldnt give a shit either way i dont know what to do",
+        "Well-being": 3,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "i just got my own insurance for the first time. at my new job."
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "i don't want to ask anyone i know about it so i am coming to reddit bc otherwise i will just continue to do nothing about it"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "help me get to the hospital"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(8) Apathic, don\u2019t care, blunted",
+              "highlighted_evidence": "ill either get better on my own or die and i really couldnt give a shit either way"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "i just want to give in and ride it out"
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "i don't want anyone to find out. i don't know if it would be worth it at all"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "i don't want anyone to go with me because i am too scared and embarrassed i don't want to ask anyone i know about it"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "i dont know if it would be worth it to go"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "f571720318",
+        "date": "11-11-2019, 02:31:14",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "i binge ate\ni didn't eat all day. and then before bed i binge ate. i am worried i will feel sick in the morning. that is not how i want to start my week. i swear i wasn't even hungry. i don't know why i did it. i am sad.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "i am worried i will feel sick in the morning."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "i am sad"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "i didn't eat all day. and then before bed i binge ate"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "i swear i wasn't even hungry. i don't know why i did it."
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "77ecbe5820",
+        "date": "20-11-2019, 00:53:41",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "has jim davis responded to the memes?\n[removed]",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "b4d332587f",
+        "date": "21-11-2019, 01:16:03",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "USPS being bros",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "7bdb5c4753",
+        "date": "26-11-2019, 03:35:22",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "in my shit over a beatles song please rescue\n23F, grew up listening to the beatles. been a few years since i listened to them, been on a kick lately. today i heard In My Life for the first time in a minute and really listened to the lyrics for once.......... bro. aw i cried. i feel like i never paid close enough attention to that song or something and now it's like i'm hearing it for rhe first time?? it's literally the cutest, most charming, wholesome lil song. so beautiful holy shit. and now it's been stuck in my head all night, and putting me in my shit. i pictured a band playing a cover of it for someone's first dance and im WRECKED alright. picture that shit !!!!! fuck the emotions that song brings me are too much i wanna die lmao !!!! too much wholesomeness and nostalgia as well im gonna explode. go listen to this song to refresh your memory and cry with me pleaseee",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(3) Sad, emotional pain, grieving",
+              "highlighted_evidence": "today i heard In My Life for the first time in a minute and really listened to the lyrics for once.......... bro. aw i cried"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "go listen to this song to refresh your memory and cry with me pleaseee"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "go listen to this song to refresh your memory and cry with me pleaseee"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "Presence": 1
+          }
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "283ea98ab2",
+        "date": "27-11-2019, 00:32:12",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "yo, how hard does cottage cheese slap tho\n[removed]",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "b40b167fd0",
+        "date": "27-11-2019, 02:08:01",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "ok, but how hard does cottage cheese slap tho\nthat shit is so good i eat it every day fr. damn i was about to post this and then i remembered tapioca pudding. that shit is so good and not just for old people. ok, but how hard does tapioca pudding slap tho too",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "cottage cheese slap tho\nthat shit is so good i eat it every day fr."
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "ok, but how hard does tapioca pudding slap tho too"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "Presence": 1
+          }
+        }
+      },
+      {
+        "post_index": 10,
+        "post_id": "66d80f566d",
+        "date": "14-12-2019, 06:41:39",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "my hair\ni just put my hair up for the first time in a while. i know it's just hair. but the devestation i feel right now is surreal. it's unreal. i have no idea how to fix it. i'm too scared to google it. i am assuming there isn't anything you can do. please don't tell me anything negative. i am so sad. i am crying like a little girl. this is a completely new kind of sadness.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "please don't tell me anything negative"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "i am so sad. i am crying like a little girl."
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "i'm too scared to google it"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "i know it's just hair. but the devestation i feel right now is surreal. it's unreal. i have no idea how to fix it"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "please don't tell me anything negative"
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "i am assuming there isn't anything you can do"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 11,
+        "post_id": "85d698f878",
+        "date": "24-12-2019, 21:03:34",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "hummus + nutritional yeast + lima beans = pretend mac &amp; cheese\nit's good as hell. it's healthy as hell. it's easy as hell. it's cheap as hell. i pretend it's mac and cheese. i put onions in it as well. mix it all up.",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "hummus + nutritional yeast + lima beans = pretend mac &amp; cheese\nit's good as hell. it's healthy as hell. it's easy as hell. it's cheap as hell."
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "hummus + nutritional yeast + lima beans = pretend mac &amp; cheese\nit's good as hell. it's healthy as hell. it's easy as hell. it's cheap as hell. i pretend it's mac and cheese. i put onions in it as well. mix it all up."
+            },
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "Presence": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "306d938d4b",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "308b0c2c6c",
+        "date": "19-05-2015, 02:40:50",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Twitchy tonight. Lost my job a few months back, have an investigatory interview tomorrow to get my license and job back. Any tips to be cool as ice when I have to be?\nI've been on meds for the anxiety, but I can see the sleepless night coming already. Any ideas to calm myself down? 1000 kettlebell swings? 15 miles on the excercycle? Ideas?",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "Any ideas to calm myself down? 1000 kettlebell swings? 15 miles on the excercycle? Ideas?"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Any tips to be cool as ice when I have to be?"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "Twitchy tonight."
+            },
+            "Presence": 2
+          }
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "ab6b2a2c94",
+        "date": "24-05-2015, 03:11:01",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Vac700 finally costs me some clothing.\nLast week, the blind cap became stuck, and removed the piston rod entirely when I unscrewed it to fill the pen. I gently got it loose, lubricated the threads with silicone, and it worked well for a week.   Today, on going to draw back the piston to clear the pen for cleaning, it did the same and sent a load of Noodler's Black all over my pants. I think the piston rod and blind cap need replaced. If it sticks once, okay. Twice and a pair of shorts?  I've emailed TWSBI to ask about replacement parts. We'll see.",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "60dda53794",
+        "date": "28-05-2015, 21:46:52",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "The Message From The Lungs- a Thai hospital extracted carbon deposits from smokers' lungs and used it to make ink. Smoking cessation programs had a 500% increase.",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "2e602497dc",
+        "date": "04-06-2015, 22:40:52",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "My wife just got a Jeopardy! audition!\nIt'll be her third. She's easily smarter than I am, and I'm no slouch. Can't wait!",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "She's easily smarter than I am"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I'm no slouch"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "She's easily smarter than I am"
+            },
+            "Presence": 2
+          }
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "8ed62bfe3c",
+        "date": "09-06-2015, 20:56:15",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "[Image] Forget stardust. You are iron.",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "a036b42063",
+        "date": "16-06-2015, 19:09:57",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "NHL13 appears to be basically dead, I've heard good things about 14, bad about 15. Should I wait for 16 or go with 14?\nI play the wheels off of the NHL series when I get them- I went from NHL10 to 13 after getting the Leafs 3 straight Cup wins, just to prove I could. Got about 200 hours in it at this point.  I've had 13 since pre-order, but have just started to mess around with HUT after a couple Detroit Cup runs. Hence, I'm starting late.  Is the trade pool basically dead? I've been putting up stuff at fire sale prices- 6-10 game contracts for 100 pucks and barely getting any nibbles, and my team sucks. I simply can't rack up enough pucks to get a gold pack and start to improve.  I'm looking at 14, but I fear the trading is just as dead. I've heard they broke a lot of things in 15 (at least there was a lot of complaining on Twitter), so I don't know if that's worth it.  Should I hold on for 16, and go 10-13-16, or is 14 alive enough to be worthwhile?",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Should I wait for 16 or go with 14?"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I play the wheels off of the NHL series when I get them- I went from NHL10 to 13 after getting the Leafs 3 straight Cup wins, just to prove I could."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "C-O": {
+              "Category": "(4) Perception of the other as blocking autonomy needs",
+              "highlighted_evidence": "I've heard they broke a lot of things in 15 (at least there was a lot of complaining on Twitter), so I don't know if that's worth it"
+            },
+            "Presence": 1
+          }
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "16b71683aa",
+        "date": "16-06-2015, 19:20:53",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Feel free to call me an idiot, but how do you shuffle these?\nI have a stock Rider-Waite-Smith deck, and I can't comfortably shuffle it. I've medium hands- size 8 rings, 8 1/2 gloves.  I was basically raised with a deck of cards in my hands. Euchre in Scouts, poker in high school, Gin against my grandmother. I can bridge, riffle shuffle, you name it, but I can't shuffle this deck.  Any pointers?",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "740b3971ec",
+        "date": "18-06-2015, 04:15:14",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Kids spraypainted my car. I got most off with rubbing compound, but there's some heavier paint on the mirror (painted side) that won't come off, any recommendations?\nNear as I can tell it's just straight Krylon or similar. I figure Bar Keeper's should take it off the window, I just need to get it off the mirror. I could go insurance, but with a $500 deductible I know we'd be on the hook for all of it.",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I got most off with rubbing compound"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "any recommendations"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "Presence": 1
+          }
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "2cd210a244",
+        "date": "24-06-2015, 02:21:41",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "11 years of depression off and on, and I can't help but believe this time gets me. The date after the dash just isn't written yet.\nAnyone else feel this way? It feels like I'm just marking time to my death sometimes, if I ever had the courage to do it.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Anyone else feel this way?"
+            },
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "11 years of depression off and on, and I can't help but believe this time gets me."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 10,
+        "post_id": "b54af65eab",
+        "date": "15-07-2015, 02:38:41",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Any Avengers Alliance players? Just starting out, could use some allies.\nName in game is my handle here, if you play.",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 11,
+        "post_id": "1b1b036c2e",
+        "date": "15-07-2015, 04:26:12",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Need allies, anyone looking to play?\nMy handle is the same as here, add away!",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "30c9e21337",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "d5257cfb2a",
+        "date": "25-02-2015, 22:45:41",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "FUCK LIFE.\nJust FUCK IT. I fucking hate life. It's so fucking pointless to live. I want everyone to just die. the whole planet to just get obliterated. Fucking bullshit is what all of this is. A big ass fucking farce. I hate life so much. I wish GOD, I FUCKING WISH I HAD THE FUCKING BALLS TO FUCKING SLICE MY WRISTS AND JUST END MY OWN LIFE AT THE VERY FUCKING LEAST. FUCKING BULL SHIT.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(10) Angry (aggression), disgust, contempt",
+              "highlighted_evidence": "I fucking hate life."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I FUCKING WISH I HAD THE FUCKING BALLS"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I want everyone to just die"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I FUCKING WISH I HAD THE FUCKING BALLS TO FUCKING SLICE MY WRISTS AND JUST END MY OWN LIFE AT THE VERY FUCKING LEAST"
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "6c32177ac7",
+        "date": "27-02-2015, 17:20:28",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "[Hello] Excited to join in!\nHi! I'm Alison and I have a kitty named Osita. I wish I could jump right into gifting, because it's hella fun, but no moolah as of now for that. On the extremely bright side, I *should* be starting a job soon (I'm in the hiring process... why is it taking so long though -_-;;), so one day I'll have the cash to join the gifting fun. I really do enjoy gifting communities. I can't wait to get to know you guys, I know you're all lovely people :) Also ask me anything and I'll give you my best answer.",
+        "Well-being": 8,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(5) Content, happy, joy, hopeful",
+              "highlighted_evidence": "Excited to join in!"
+            },
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I *should* be starting a job soon (I'm in the hiring process"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I can't wait to get to know you guys"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I really do enjoy gifting communities."
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "I know you're all lovely people :)"
+            },
+            "D": {
+              "Category": "(3) Autonomy and adaptive control",
+              "highlighted_evidence": "so one day I'll have the cash to join the gifting fun"
+            },
+            "Presence": 5
+          },
+          "maladaptive-state": {
+            "Presence": 1
+          }
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "7b64ddc0c2",
+        "date": "07-03-2015, 16:50:54",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "And then he disabled his account.",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "4956757c08",
+        "date": "30-03-2015, 19:30:39",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I'm having an off day.\nI'm on mobile and my thoughts are scattered so bear with me if you decide to read this.   I sort of decided on my own that I'll be fighting depression my whole life. I'm going to be on meds forever, be in and out of therapy, and (I hate to admit it) probably end up hospitalized again at some point. So my battle is to stay stable for as much as I can. I've been doing pretty good for a few months, but inexplicably, today I'm not feeling well. I got out of bed 15 minutes before I had to leave for work even though the alarm was set for an hour earlier. I zoned out a little while driving. I feel the 'fog' lightly looming around me. Do you know what I'm talking about? That awful haze that envelops you when you're depressed and just mutes you from feeling anything.. I don't want it to get worse. I tried to reach out to a friend last night for comfort. I was lonely and needed to connect with someone. But she was saying all the wrong things. things I didn't want to hear. things that just made me boil with anger. And all she was doing was being... positive... Positivity is so sickening and unbelievable and aggravating when I get depressed. anyway. I'm going back to work now. I hope this haze doesn't last too long.",
+        "Well-being": 6,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": ". I'm going back to work now."
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "tried to reach out to a friend last night for comfort. I was lonely and needed to connect with someone"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I've been doing pretty good for a few months"
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "all she was doing was being... positive"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I hope this haze doesn't last too long."
+            },
+            "Presence": 4
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "today I'm not feeling well"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I got out of bed 15 minutes before I had to leave for work even though the alarm was set for an hour earlier. I zoned out a little while driving."
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "But she was saying all the wrong things. things I didn't want to hear."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I'm going to be on meds forever, be in and out of therapy, and (I hate to admit it) probably end up hospitalized again at some point"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "she was saying all the wrong things. things I didn't want to hear. things that just made me boil with anger."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "sort of decided on my own that I'll be fighting depression my whole life. I'm going to be on meds forever, be in and out of therapy, and (I hate to admit it) probably end up hospitalized again at some point. So my battle is to stay stable for as much as I can."
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "f1ea3c60f3",
+        "date": "10-04-2015, 18:34:30",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "BPD or depression\nI don't know if it's BPD or depression but I'm feeling suicidal and very very lonely. my friends all tell me they love me and miss me but somehow it's not enough. I want attention and I guess I'm getting it when they say they love me but it's not *just* right so I'm left longing for something I can't even identify. I'm starting to feel like I should give my cat away because I'm doing a shitty job taking care of her. my family picks up the slack but I still feel that if Im not the one feeding her everyday, I don't deserve to keep her. I also want one less thing to worry about if I kill myself. it reminds me of how giving one's possessions away is a warning sin of suicide lol. I guess my cat is the only important thing in my life.   anyway. I don't know my loneliness is a BPD thing or a depression thing. I honestly don't understand my diagnosis of BPD anyway.",
+        "Well-being": 3,
+        "evidence": {
+          "adaptive-state": {
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "my friends all tell me they love me and miss me"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "I want attention"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "don't know if it's BPD or depression but I'm feeling suicidal and very very lonely."
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "I'm starting to feel like I should give my cat away because I'm doing a shitty job taking care of her"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I don't deserve to keep her."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "but somehow it's not enough"
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "I'm left longing for something I can't even identify"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "d3fb3d6a73",
+        "date": "10-04-2015, 18:44:30",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "Medication side effects\nIs constant acne and weight gain worth the better mood? I mean, logically it does seem to be worth it, but I really really really don't want to gain any more weight and constantly breaking out is painful for my skin and my (already nonexistant) ego. and while my mood gets better on the med, it doesn't bring me enough motivation to work out so that I can keep the pounds off. I just want to die and not have to worry about life.",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(5) Content, happy, joy, hopeful",
+              "highlighted_evidence": "my mood gets better on the med,"
+            },
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "Medication side effects"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "Is constant acne and weight gain worth the better mood? I mean, logically it does seem to be worth it,"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I really really really don't want to gain any more weight"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "I just want to die"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "it doesn't bring me enough motivation to work out so that I can keep the pounds off"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "constantly breaking out is painful for my skin and my (already nonexistant) ego."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I just want to die and not have to worry about life."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "e1588076f5",
+        "date": "11-04-2015, 21:11:25",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "I want to die.\nmost of my week has been spent lying in bed pretending to not exist and fantasizing about suicide. my life is fine. I'm working part time while I'm off school this semester, I'm trying to stay on track for my career, I have friends that say they love me, my family says they love me, I have a home, food, water, but I still feel incomplete. is it my depression doing this me? regardless of what is causing it, I still feel this way and I just want to die. I have a method and just need a location. but even then I'm just being picky with my location. I could honestly do it anywhere I think.   yeah, I just want to die. every action I do is prefaced by the thought 'I want to die'. when I lie in bed, I think about ways to die. I wish I could make it stop. I don't have it in me to make efforts to distract myself from these thoughts. and that idea in itself is a depressing one to me. is my whole life just going to consist of trying to distract myself from suicide? like how is that living? its not. I would rather not live. I would rather die.  sometimes I think to myself I should have killed myself back in high school. maybe I should kill myself now instead of regretting living even more in the future.  I don't know what I'm doing by posting here. I just want to talk about these suicidal feelings, I guess. sigh. I wish someone would just kill me. I would be grateful.",
+        "Well-being": 2,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I'm trying to stay on track for my career,"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "my life is fine."
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "I have friends that say they love me, my family says they love me,"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I wish I could make it stop."
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "fantasizing about suicide"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "most of my week has been spent lying in bed pretending to not exist"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I don't have it in me to make efforts to distract myself from these thoughts"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "is my whole life just going to consist of trying to distract myself from suicide? like how is that living? its not. I would rather not live. I would rather die"
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "fa779f6297",
+        "date": "12-04-2015, 15:59:31",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "I want to hire someone to kill me\nlol. how much do you think I'll need?  edit: instead of making new posts I'm just gonna add to this. depression fucking sucks. I'm  a little pissed off. like. I understood having depression when I was wrought with anxiety and stress and life was fucking shit but like.. life is fine right now. like why the fuck do I have this overwhelming need to plan my suicide or die??? like fuck this shit. I just wanna tell everyone that I'm depressed in hopes they'll have some kind of advice or conversation that will maybe pull me out of this mindset ROAR. AHSIDHSLDBSODHC. well at least I'm angry right now. it's preferable to being a useless shit stain that mopes all day.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I just wanna tell everyone that I'm depressed"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "life is fine right now."
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "I just wanna tell everyone that I'm depressed in hopes they'll have some kind of advice or conversation that will maybe pull me out of this mindset"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "depression fucking sucks"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I want to hire someone to kill me\nlol. how much do you think I'll need?"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I'm angry right now. it's preferable to being a useless shit stain that mopes all day."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I have this overwhelming need to plan my suicide or die???"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "0966f70863",
+        "date": "12-04-2015, 17:59:43",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "abandonment?\nI don't do the thing where people with BPD will do everything they can to stop perceived or real abandonment. or maybe I do but I can't tell so hear me out. ive been sort of hanging out with this guy Ive been crushing on but he doesn't really seem that into me. after a week of this, I'm suddenly thinking about suicide a lot. for no good reason it seems. am I reacting to being possibly abandoned by the guy? also its weird because I know it will not do anything to stop him from ditching me. in fact, if he straight up told me to leave him alone, I'd agonize over it for a few days but eventually get over it. being left hanging and in the unknown is what really gets me.. anyway idk I just had to ramble about it.",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "ive been sort of hanging out with this guy Ive been crushing on"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "just had to ramble about it."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "I'm suddenly thinking about suicide a lot"
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "am I reacting to being possibly abandoned by the guy?"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "he doesn't really seem that into me."
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "I know it will not do anything to stop him from ditching me."
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 10,
+        "post_id": "21a1a953dd",
+        "date": "13-04-2015, 22:39:19",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "[Thanks] chaveyf16 for the preppy. i love fountain pens!",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 11,
+        "post_id": "f551c7083d",
+        "date": "16-04-2015, 21:15:52",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "[THANKS] imawifebitch, my nails are gonna look SO cool thanks to you :3",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "3db8573df5",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "e383f54895",
+        "date": "16-09-2019, 02:42:12",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Thank you for suggestions on my hair! I love the outcome. My confidence has been boosted significantly! Thank you!",
+        "Well-being": 9,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(11) Proud",
+              "highlighted_evidence": "My confidence has been boosted significantly"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Thank you for suggestions on my hair"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I love the outcome"
+            },
+            "Presence": 5
+          },
+          "maladaptive-state": {
+            "Presence": 1
+          }
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "77cbbd5cc2",
+        "date": "30-09-2019, 23:05:25",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "Getting harder and harder\nChronic illness and coping with it is getting hard. I am struggling. Feel worthless. Feel like I dont deserve love because I'm sick. What's the point of you cant have love? How do I break free from that. I feel other people with chronic illness deserve love. Why shouldnt I? I dont know how to cope. Getting closer to the dark thoughts and planning. I have attempted in the past a few times due to this issue too. I need help and I dont want to admit myself because the hospital here is going downhill and last time they refused to give me medication I needed and almost killed me and wouldnt give me it till my parents spoke up. I cant go somewhere where they wont even try to listen to the patients. Urs dangerous there for me and scary. I dont really know what I need. Maybe just to vent this. I just feel unworthy of life and love. And it's getting harder and harder to cope.",
+        "Well-being": 2,
+        "evidence": {
+          "adaptive-state": {
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I feel other people with chronic illness deserve love. Why shouldnt I?"
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "till my parents spoke up"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "What's the point of you cant have love? How do I break free from that"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "Getting closer to the dark thoughts and planning"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I dont want to admit myself"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "Feel worthless"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "last time they refused to give me medication I needed and almost killed me and wouldnt give me it"
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "Feel like I dont deserve love because I'm sick"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "84e4fa4132",
+        "date": "02-10-2019, 14:09:55",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "Worse\nI want to self harm. I want to sleep and never wake up. I want to go away. I dont want to feel this way anymore. I dont deserve anything or anyones love and kindness. I'm really sorry to anyone I have hurt with my not being understanding. I am really sorry.   I'll try to sleep this off.   I am truly sorry, please forgive me.",
+        "Well-being": 1,
+        "evidence": {
+          "adaptive-state": {
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "I dont want to feel this way anymore"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I dont deserve anything or anyones love and kindness."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I want to self harm. I want to sleep and never wake up"
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "1ff7e4e0ed",
+        "date": "22-10-2019, 21:32:37",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "AITA for not watching tv every night with my mom?\n[removed]",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "2ba7134fcc",
+        "date": "28-10-2019, 05:04:28",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "26 USA Someone who can help motivate me to exercise everyday and avoid binging.\nI have a heart issue where I have low blood pressure (it does not rise with activity either) and high heart rate. I need to exercise everyday (light exercise like walking) in order to help build strength and energy levels. When i miss a day, it is hard for me to get out of bed the next day, so it's very important for my health.   I'm not overweight, but I do binge at night sometimes and would like someone who could be a support to help me avoid that. When I eat a lot of carbs/calories at a time, it makes my heart worse it feels like. I get more dizzy and a higher heart rate. So, I need to avoid that but sometimes my apathy with depression overcome me and I'm like \"fuck it\" and do it anyways. So someone to talk to in those times could help.   I usually start to binge around 10-11pm. If there is anyone who could assist me with motivation for my health, I would love that! We could encourage each other!",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(5) Content, happy, joy, hopeful",
+              "highlighted_evidence": "If there is anyone who could assist me with motivation for my health, I would love that!"
+            },
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "who can help motivate me to exercise everyday and avoid binging"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "If there is anyone who could assist me with motivation for my health, I would love that! We could encourage each other!"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I need to exercise everyday (light exercise like walking) in order to help build strength and energy levels."
+            },
+            "Presence": 4
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "my apathy with depression overcome me"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "but I do binge at night sometimes"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "So, I need to avoid that but sometimes my apathy with depression overcome me and I'm like \"fuck it\" and do it anyways"
+            },
+            "Presence": 2
+          }
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "d3ef2b71ca",
+        "date": "29-10-2019, 23:45:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I am new to this. I know absolutely nothing. What do I do to \"cleanse\" myself? 26 years old. I havent really looked into this and I am so overwhelmed and spiraling that I dont know where to even begin. I feel like this could make me feel some ease.   What can I do to help me when I feel some people have ill will towards me and I have been suffering from nightmares, lethargy, and just all around a negative mindset? I wanna feel like my old positive self again and seem to be lost in negativity that I cant seem to control.   Any help tips or tricks would be really lovely. Thanks.",
+        "Well-being": 6,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Any help tips or tricks would be really lovely. Thanks."
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I feel like this could make me feel some ease.   What can I do to help me"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I have been suffering from nightmares, lethargy, and just all around a negative mindset"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I feel some people have ill will towards me"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I wanna feel like my old positive self again and seem to be lost in negativity that I cant seem to control"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "0f7323017f",
+        "date": "01-11-2019, 12:02:38",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "Lead me on, sext with me, nothing, come back, you're so shitty.\nThis person and I were close friends made here on reddit. All coooooool...  then he found out I'm gonna go on a date. Then he tells me he likes me a lot. THEN goes on a date with a girl. Second date with her, sleeps over. Texts me WHILE STILL WITH HER. Super shutty imo. Tells me THE NEXT DAY he loves and would \"ideally want a long distance thing with me\". Has another date with this girl. Said he was gonna tell her about me. Things are weird. Take a break talking. Talk again after a couple days then sext. NEXT DAY nothing from him. He says it brought up bad emotions from trauma. Cool fine. I respect that as I have PTSD. I need a break from him again cus yeah. Decide to be friends. Cool. He is absolutely cold and distant. Never initiates a convo. I do it all. Then we finally talk after I'm having a breakdown and want to die. Found out he is dating that girl now. I am done. I cant be friends after all that. Date who you want, but I cant handle that. Just WHY.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(3) Sad, emotional pain, grieving",
+              "highlighted_evidence": "Just WHY."
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I'm gonna go on a date."
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "I do it all."
+            },
+            "Presence": 4
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(10) Angry (aggression), disgust, contempt",
+              "highlighted_evidence": "Lead me on, sext with me, nothing, come back, you're so shitty."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "but I cant handle that"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "He is absolutely cold and distant."
+            },
+            "Presence": 2
+          }
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "3fd9477f88",
+        "date": "04-11-2019, 02:34:15",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "I'm mean to people I care about when I'm suicidal.\nI kinds just realized I do this. I want them to not care about me cus my mind thinks they dont already, so I make it fit the narrative I have in my head. I cant stop. Even when I tell them I do it (I did this weekend). Its me preparing them to not care if I do kill myself.   Dont worry, I told my friends, my family is aware. I'm gonna see my therapist soon and try my best to be honest with her. Just something I noticed.",
+        "Well-being": 2,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I'm gonna see my therapist soon"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I told my friends, my family is aware"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "try my best to be honest with her"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "when I'm suicidal"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "(I did this weekend)"
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "I'm mean to people"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "cus my mind thinks they dont already"
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "want them to not care about me"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "8e5f34ffb9",
+        "date": "05-11-2019, 10:59:03",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "The Middle East - Blood",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "43f395b896",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "07324d9cc0",
+        "date": "13-12-2020, 12:58:37",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "How does it feel for birds to lay eggs?\nDo they feel an urge, like they have to poop? Do they have to strain or push the egg, or is it more involuntary? Does it hurt?",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "0e3bef4a89",
+        "date": "16-12-2020, 01:35:59",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Found in a cat group on Facebook",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "3148fd6e42",
+        "date": "18-12-2020, 13:12:09",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Why do sandwiches taste better cut diagonally?",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "7b7d1e3cbd",
+        "date": "20-12-2020, 13:07:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Feeling nervous about getting the COVID vaccine I have a fuckton of allergies. Never had anaphylaxis but I do have a few drug allergies and I know anaphylaxis is a rare but possible side effect of the vaccine. When the time comes for me to get it, I'm really nervous about having a delayed reaction and dying when I get home or something. I think I'm going to ask if there's any way for me to hang out onsite for a little while after the vaccine to make sure I don't have a reaction, but even then, there's always the small risk that a reaction could show up a little later. I live alone. No one would be there to help me if I couldn't breathe or talk.   But I also don't want to die of COVID. So I have to do this. I know the risk is so, so small - significantly smaller than my risk of getting COVID and experiencing life-threatening complications - but that doesn't make me feel any better.   Has anyone had it yet?",
+        "Well-being": 8,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Has anyone had it yet?"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "But I also don't want to die of COVID. So I have to do this."
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I'm really nervous about having a delayed reaction and dying when I get home or something."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I know the risk is so, so small - significantly smaller than my risk of getting COVID and experiencing life-threatening complications - but that doesn't make me feel any better"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "4f92e325b0",
+        "date": "22-12-2020, 22:18:23",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "My promotion is going to end in February after 3 billing periods\nI just got a letter in the mail that my promo rate is ending in February. I just upgraded at the end of November so I'll have had the promo for only 3 months. I was kind of under the impression that my promo rate would last for the duration of my new contract. Is that not the case?",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "2f6ddc5cfe",
+        "date": "02-01-2021, 13:15:03",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "What are you supposed to do if you find a car broken into?\nMy city has a huge problem with auto theft, burglary, and vandalism. Like, you pretty much can't own a car here without it being broken into at some point. Today I noticed a car in my apartment complex's parking lot with the window shattered, the door open, and some stuff on the ground. I felt so bad and wanted to do something, but I'm not sure if there's anything I could have done. I had no way to contact the owner and didn't want to risk implicating myself in any way so I just left it alone. Is that what you're supposed to do? Really sucks for whoever that happened to. \ud83d\ude15",
+        "Well-being": 8,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(9) Justifiable anger/ assertive anger, justifiable outrage",
+              "highlighted_evidence": "I felt so bad and wanted to do something"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Is that what you're supposed to do? Really sucks for whoever that happened to."
+            },
+            "Presence": 4
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "didn't want to risk implicating myself in any way"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "My city has a huge problem with auto theft, burglary, and vandalism"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "but I'm not sure if there's anything I could have done"
+            },
+            "Presence": 2
+          }
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "bebf00051c",
+        "date": "08-01-2021, 01:56:00",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "Do you think it's fair to say the past year has been traumatic? I feel permanently changed by everything that's happened this past year. I am exhausted. I feel bitter and angry and sad. I have never hated people the way I do now. There are times that I feel like going outside and just screaming at the sky until I can't anymore. And I feel gaslit by the people around me who want to pretend that nothing is wrong.   I'm very lucky that the events of this year haven't had a huge direct impact on me - I have a job and a place to live, my loved ones are alive. But it feels like everything else is just a giant fucking nightmare. All I want to do is sleep and pretend I don't exist. I don't think I'm ever going to be completely okay after this, even if things do someday become \"normal\" again, whatever that even means.",
+        "Well-being": 6,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Do you think it's fair to say the past year has been traumatic? I feel permanently changed by everything that's happened this past year."
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I'm very lucky that the events of this year haven't had a huge direct impact on me - I have a job and a place to live, my loved ones are alive."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "But it feels like everything else is just a giant fucking nightmare. All I want to do is sleep and pretend I don't exist. I don't think I'm ever going to be completely okay after this, even if things do someday become \"normal\" again, whatever that even means."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I have never hated people the way I do now."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I don't think I'm ever going to be completely okay after this, even if things do someday become \"normal\" again, whatever that even means."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "633a7a79b4",
+        "date": "11-01-2021, 04:00:17",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Anyone else get super uncomfortable at clubs or parties where people are trying to hook up?\nA lot of if is just due to me being an introvert but I hate pretty much any social event where it's expected that people are going to be hooking up. I don't even want to talk to people I don't know because I don't want anyone getting the wrong idea.",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "Anyone else get super uncomfortable at clubs or parties where people are trying to hook up"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "A lot of if is just due to me being an introvert but I hate pretty much any social event where it's expected that people are going to be hooking up"
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "I don't even want to talk to people I don't know because I don't want anyone getting the wrong idea"
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "6f064e2e2d",
+        "date": "16-01-2021, 06:53:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I just started my second semester back at college and I already feel overwhelmed I'm only attending part time right now while I work part time and I already feel like I'm in over my head. I dropped out of uni 3 years ago when I realized I wasn't happy with my career prospects and now I'm trying to get an associate's in health information technology. I'm taking intro to anatomy and physiology, the a&amp;p lab, and medical terminology. I feel so rusty. It's been 10 years since I've taken biology and chemistry in high school. Chapter 1 hasn't been too bad so far, but this is just the beginning, and I still have so much work left to do.  It's extra hard because I've been pretty depressed lately because, well, everything around me is depressing. I sleep way too much and when I'm awake my brain feels like mush. I thought starting a new, stimulating challenge would help to perk me up and pull my head out of the fog but instead I just feel like I'm staring up at a mountain of work I can't keep up with.",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I dropped out of uni 3 years ago when I realized I wasn't happy with my career prospects and now I'm trying to get an associate's in health information technology."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "It's extra hard because I've been pretty depressed lately because, well, everything around me is depressing. I sleep way too much and when I'm awake my brain feels like mush."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I already feel overwhelmed I'm only attending part time right now while I work part time and I already feel like I'm in over my head."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "Chapter 1 hasn't been too bad so far, but this is just the beginning, and I still have so much work left to do."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 10,
+        "post_id": "2e0463374c",
+        "date": "18-01-2021, 03:59:40",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "WHERE ARE YOUR SHOES?? FREEZE TO DEATH, DUMBFUCK",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 11,
+        "post_id": "9192291064",
+        "date": "29-01-2021, 02:42:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Those who've tested positive after receiving both doses of the vaccine, what was your experience?\nDid you have symptoms? How severe were your symptoms, and how long did they last?  I'm just curious. Just got my first dose of the moderna vaccine. I know with the flu vaccine you're less likely to experience severe symptoms or complications if you do get the flu, but the COVID vaccines haven't been around long enough to have that kind of data  yet.",
+        "Well-being": 8,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Those who've tested positive after receiving both doses of the vaccine, what was your experience?\nDid you have symptoms? How severe were your symptoms, and how long did they last? I'm just curious."
+            },
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "Just got my first dose of the moderna vaccine. I know with the flu vaccine you're less likely to experience severe symptoms or complications if you do get the flu"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "Presence": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "46f4bb3ada",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "b840ef8ca5",
+        "date": "13-10-2019, 08:03:19",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "I\u2019m going to bed now\nI can\u2019t imagine myself alive next year. Should I just give up on school and everything else right now because I know I\u2019m going to die anyways. Not sure what I should do",
+        "Well-being": 2,
+        "evidence": {
+          "adaptive-state": {
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "Should I just give up on school and everything else right now because I know I\u2019m going to die anyways"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I\u2019m going to bed now"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I can\u2019t imagine myself alive next year"
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "220c16e374",
+        "date": "18-10-2019, 07:56:51",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "what I wish I could say to my parents\nI\u2019m not lazy. I have depression and anxiety and doctors literally told you the other day. Everything is hard for me right now. Even the things you\u2019re supposed do daily takes too much energy to do. I hope you can stop prioritizing school but me instead for a little while so I can heal. My thoughts are not silly or a teenage phase either and taking antidepressants won\u2019t cure everything immediately. I know you guys keep telling me other people have it worse than me but I can\u2019t help feeling like this. You made me promise you that I would go to school tomorrow but I honestly don\u2019t think I can. I\u2019m too scared to and thought of it makes me want to die. So please shut up about school just for a little while, please. I\u2019m sorry for being such a disappoint.",
+        "Well-being": 2,
+        "evidence": {
+          "adaptive-state": {
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "My thoughts are not silly or a teenage phase"
+            },
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "Everything is hard for me right now"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I\u2019m sorry for being such a disappoint."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I hope you can stop prioritizing school but me instead for a little while so I can heal"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I\u2019m too scared to and thought of it makes me want to die"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "a24dc65ba5",
+        "date": "18-10-2019, 09:24:46",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "lololol",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "40127b337b",
+        "date": "18-10-2019, 17:34:55",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "aww",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "082f9ac618",
+        "date": "18-10-2019, 20:18:25",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "OHH",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "be182f0924",
+        "date": "20-10-2019, 04:27:49",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I could never",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "eb2c89638d",
+        "date": "21-10-2019, 20:44:01",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "coach of the year",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "26dc61f143",
+        "date": "21-10-2019, 22:09:34",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "If we remove all laws then the crime rate would be 0%",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "1c66c359a2",
+        "date": "29-10-2019, 08:29:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Frickk im so freakin scared to go to school tomorrow but it\u2019s gonna be okay I can do it hopefully I can do this yep I can okokok I will I have to im gonna go for sure I know I can everything will be fine",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I know I can"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "hopefully I can do this"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "Frickk im so freakin scared to go to school tomorrow"
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 10,
+        "post_id": "068538dc83",
+        "date": "06-11-2019, 07:10:03",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "Y\u2019all my mom is hilarious she said \u201cjust be happy why are u like this everyone wants to be friends with you\u201d lol okay mom I\u2019ll do just that. after knowing about my suicide attempts she said \u201cyou\u2019re such a good girl y would u do that\u201d omg I\u2019m a good girl? Thanks 4 telling me I won\u2019t try to die anymor\n[removed]",
+        "Well-being": 3,
+        "evidence": {
+          "adaptive-state": {
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "Thanks 4 telling me I won\u2019t try to die anymor"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "omg I\u2019m a good girl"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "okay mom I\u2019ll do just that"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 11,
+        "post_id": "391e9057c2",
+        "date": "18-11-2019, 10:09:51",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "People who don\u2019t have anyone to eat lunch at school with where do you go?\nI don\u2019t have anyone to eat with so I just go home but I\u2019m tired of having to walk home everyday since our lunch break is only 40mins and it takes around 7mins to walk home and back. Any ideas where else I could eat lunch",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "People who don\u2019t have anyone to eat lunch at school with where do you go"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(14) Feel lonely",
+              "highlighted_evidence": "I don\u2019t have anyone to eat with"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "so I just go home"
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 12,
+        "post_id": "e36e46ced7",
+        "date": "05-12-2019, 12:50:33",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "felt like the psychiatrist was judging me because I told her I\u2019ve tried to commit suicide 2 times\nShe asked me a series of questions and then asked how many times have I tried to commit suicide and I said two. She repeated back \u201ctwo?\u201d and I said yeah. The tone she said it in sounded like \u201cpft only twice that\u2019s so less\u201d if you know what I mean. I could be remembering it wrong but I\u2019ve been thinking about it since the meeting. Is being suicidal for 2 years and only attempting it twice weird?",
+        "Well-being": 2,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(3) Sad, emotional pain, grieving",
+              "highlighted_evidence": "only attempting it twice weird"
+            },
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I\u2019ve been thinking about it since the meeting. Is being suicidal for 2 years and only attempting it twice weird?"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "felt like the psychiatrist was judging me because I told her I\u2019ve tried to commit suicide 2 times"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 13,
+        "post_id": "79428ef266",
+        "date": "06-12-2019, 08:59:33",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "where\u2019s the rest of the gang",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 14,
+        "post_id": "984f9848fe",
+        "date": "07-12-2019, 10:41:19",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I need a serotonin army",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 15,
+        "post_id": "41fe1222e8",
+        "date": "09-12-2019, 10:31:48",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "true dat",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "5da839acb5",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "d06936d838",
+        "date": "06-10-2019, 10:42:36",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "A heart\u2019s a heavy burden.\nI\u2019m at this point in my life currently where I\u2019m somehow stuck between feeling the ache of everything, and not feeling anything at all. I was taught from a young age that the \u201conly\u201d way to cope with all the hurt is to flip the switch and turn it off - and now all the switches and wires feel flipped and intertwined and I can\u2019t make sense of a single damn thing.  It\u2019s hard to talk to people about the mess of emotions I feel, or the jumbled thoughts I have. I know people care about me, at least some of the time, but not enough for me to feel okay with talking about the things that keep me up at night. It\u2019s a really lonely, isolating feeling to have. But god, I wish anyone cared more than the bare minimum. Enough to reach inside my chest and rip the hurt right from the comfortable place it rests, covered up by all the excuses and lies I use just to make it through each day.  There\u2019s so much that\u2019s happened this year, so much I\u2019ve let people get away with because my heart is just a little too big for blame and anger to hold onto. I\u2019m so drained though, and I\u2019m so sick of making myself feel small in hopes I\u2019ll fit into people\u2019s lives. And I\u2019m scared, because it hasn\u2019t gotten any better. I don\u2019t know if it will.  Writing all of this is pretty pointless, but at least if you tell it to the void, the void can\u2019t talk back and tell you to suck it up or stop complaining.",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "my heart is just a little too big for blame and anger to hold onto"
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "I know people care about me, at least some of the time"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "I wish anyone cared more than the bare minimum."
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "I\u2019m somehow stuck between feeling the ache of everything, and not feeling anything at all."
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "the \u201conly\u201d way to cope with all the hurt is to flip the switch and turn it off - and now all the switches and wires feel flipped and intertwined and I can\u2019t make sense of a single damn thing"
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "It\u2019s hard to talk to people about the mess of emotions I feel, or the jumbled thoughts I have"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "reach inside my chest and rip the hurt right from the comfortable place it rests, covered up by all the excuses and lies I use just to make it through each day."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "not enough for me to feel okay with talking about the things that keep me up at night. It\u2019s a really lonely, isolating feeling to have."
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "I\u2019m so drained though, and I\u2019m so sick of making myself feel small in hopes I\u2019ll fit into people\u2019s lives. And I\u2019m scared, because it hasn\u2019t gotten any better. I don\u2019t know if it will."
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "49866ff6f6",
+        "date": "11-10-2019, 05:39:48",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "Feeling like a waste of space.\nEvery time I go to make a post here I get annoyed with myself because honestly, who fucking cares lol. But I'm just drained and need an outlet to vent so here I am yet again.  I know everyone moves through life at different paces, and not everything is as good as it seems, even for people who are more fortunate than others. Even still, I feel like I'm not where I'm meant to be at all and it's slowly killing me. So many people I know are getting their shit together - getting in happy relationships and starting families, having their own homes, and living their best lives. And I know I shouldn't be so worried about that stuff at 23, but fuck. I've been dealt shitty cards from the start and I'm sick of not having anything good for myself. I'm sick of feeling like a shadow in this world.  On top of that, I'm getting increasingly lonely, and usually I can control this feeling and not let it get to me but we all know the role depression plays in making you feel isolated. It's so hard to make friends though. Every time I open up to  someone, or try to build a connection with them, in the end I'm not good enough and they leave. I've stopped reaching out to people because I'm so sick of that cycle repeating. I don't want to keep opening up my heart to people just for them to crush it.  In conclusion, people suck and so does life.",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I'm just drained and need an outlet to vent so here I am yet again"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I'm sick of feeling like a shadow in this world."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "feel like I'm not where I'm meant to be at all and it's slowly killing me."
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "I've stopped reaching out to people because I'm so sick of that cycle repeating."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "Feeling like a waste of space."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "Every time I open up to  someone, or try to build a connection with them, in the end I'm not good enough and they leave."
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "I've stopped reaching out to people because I'm so sick of that cycle repeating. I don't want to keep opening up my heart to people just for them to crush it.  In conclusion, people suck and so does life."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "fdfc4cd408",
+        "date": "12-10-2019, 08:11:43",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "Breaking point.\nI don\u2019t have anyone I can talk to about this. I try to go to people, try to open up to them, put myself in a vulnerable place and all it ever does is fuck me over and make the hurt of everything that much worse.  I feel sick to my stomach with guilt for feeling this way. My best friend lost someone she loved unexpectedly earlier this year, and I don\u2019t want her to lose another, but it\u2019s all I can feel and think about lately.  I\u2019ve tried to make good changes in my life. I\u2019ve gone to therapy. I went back to school. I tried making friends. I tried dating. In the end, nothing is enough. I\u2019m not enough. There\u2019s always something wrong, either with me or the timing and circumstances.  My heart feels shattered and I feel beside myself with it all. I don\u2019t see the point anymore. I\u2019m never going to have that life I dreamed of. I never asked for much. I just wanted something good to happen. I wanted to be good enough, deserving enough. But I have nothing and no one. Just this ache that won\u2019t go away.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I\u2019ve tried to make good changes in my life. I\u2019ve gone to therapy. I went back to school. I tried making friends. I tried dating."
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "My best friend lost someone she loved unexpectedly earlier this year, and I don\u2019t want her to lose another,"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "My heart feels shattered and I feel beside myself with it all. I don\u2019t see the point anymore"
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "I try to go to people, try to open up to them, put myself in a vulnerable place and all it ever does is fuck me over and make the hurt of everything that much worse."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I\u2019m not enough. There\u2019s always something wrong, either with me or the timing and circumstances"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I don\u2019t have anyone I can talk to about this."
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "I\u2019m never going to have that life I dreamed of. I never asked for much. I just wanted something good to happen. I wanted to be good enough, deserving enough. But I have nothing and no one. Just this ache that won\u2019t go away."
+            },
+            "Presence": 5
+          }
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "930097b1c5",
+        "date": "20-10-2019, 01:46:18",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "drained.\ni don\u2019t really have the words right now for how i feel, except that it\u2019s miserable. i don\u2019t have anything or anyone to keep me going anymore, and i\u2019m still hung up over someone who couldn\u2019t care less if i was alive or dead. i\u2019m trying to keep my shit together because my best friend needs me, but i\u2019m just tired and things have only been getting worse. i don\u2019t think i\u2019ll be here come next year and i feel sick at the thought.",
+        "Well-being": 2,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "i\u2019m trying to keep my shit together"
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "i\u2019m trying to keep my shit together because my best friend needs me"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "i\u2019m trying to keep my shit together because my best friend needs me,"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "i don\u2019t really have the words right now for how i feel, except that it\u2019s miserable."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "i\u2019m still hung up over someone who couldn\u2019t care less if i was alive or dead"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "i don\u2019t have anything or anyone to keep me going anymore, and i\u2019m still hung up over someone who couldn\u2019t care less if i was alive or dead."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "i\u2019m just tired and things have only been getting worse. i don\u2019t think i\u2019ll be here come next year"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "6e909f106a",
+        "date": "23-10-2019, 22:38:05",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "Hitting like a train today.\nWe haven't spoken in several months, and it's not really getting any easier. It comes and goes in waves, and it hits hard when I least expect it. Today I gave that new song \"If The World Was Ending\" a listen and it shattered me on the spot; it's that easy for me to spiral into missing him, and I hate it.  I hate that I still miss him - not even romantically (okay maybe a little), but overall, his friendship and his presence in my life. It's such a shitty feeling to have the door slammed on you, so to speak. I know that closure is a tricky construct, and that sometimes you have to make it for yourself, but I'm really struggling in that regard. I truly feel like this is something I'll carry with me to my grave, and that eats away at me.  This month has been a real struggle overall. This time last year was the last time we were okay, before things completely broke apart. I broke contact and tried reaching out to him a couple of weeks ago, which was stupid of me and I know that, and he made it pretty clear he has no interest in ever speaking again. I know in the end it's for the best, but right now it's miserable and I wish I could turn back time.",
+        "Well-being": 3,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(3) Sad, emotional pain, grieving",
+              "highlighted_evidence": "it's that easy for me to spiral into missing him, and I hate it.  I hate that I still miss him"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I know in the end it's for the best,"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "I truly feel like this is something I'll carry with me to my grave, and that eats away at me."
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "I broke contact and tried reaching out to him a couple of weeks ago"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "which was stupid of me and I know that,"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "he made it pretty clear he has no interest in ever speaking again."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I truly feel like this is something I'll carry with me to my grave, and that eats away at me"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "b7efbe6603",
+        "date": "02-11-2019, 07:57:18",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "This is killing me.\nI was looking through our old Discord chat *(stupid, I know),* and it just... kills me. He was by far the most supportive person in my life for all the months we were together. Not even my best friend comes close to being as sincere and sweet as he was. No one has ever made me feel even a fraction of the way he did.   Any new ideas I had, he encouraged me and gave input. If I was feeling down or sick, he'd stream cartoons for us to watch together until I felt better. He always sent me new songs because he knew I'd be stubborn and play old ones on repeat all day otherwise. He sent the best damn memes and made me laugh more than anyone ever did. And when we called, it was always so comfortable and we'd talk for ages about every little thing. He never complained if I babbled on like an idiot.  This is fucking me up and I can't get past it at all. I don't know what to do. I always just cry it out and then sleep it off, but the cycle repeats and I'm growing weaker. When he left he said I'd find someone like him again, but God, there's only one him and I can never get that back.",
+        "Well-being": 3,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(3) Sad, emotional pain, grieving",
+              "highlighted_evidence": "I was looking through our old Discord chat *(stupid, I know),* and it just... kills me."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "the cycle repeats and I'm growing weaker."
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I always just cry it out and then sleep it off,"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "He was by far the most supportive person in my life for all the months we were together."
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "there's only one him and I can never get that back."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "da20343212",
+        "date": "03-11-2019, 06:41:08",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "Miserable and guilty.\nMy best friend\u2019s birthday is tomorrow and all I can think about is how badly I want to end my life, but I can\u2019t because I can\u2019t do that to her.  I feel so empty and beside myself.",
+        "Well-being": 1,
+        "evidence": {
+          "adaptive-state": {
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "but I can\u2019t because I can\u2019t do that to her."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(12) Ashamed, guilty",
+              "highlighted_evidence": "Miserable and guilty.\nMy best friend\u2019s birthday is tomorrow and all I can think about is how badly I want to end my life, but I can\u2019t because I can\u2019t do that to her"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I feel so empty and beside myself"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "all I can think about is how badly I want to end my life,"
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "30d8f4338e",
+        "date": "04-11-2019, 09:15:38",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "I hate it more than anything.\nI\u2019m so sick of having to pretend I\u2019m okay because it\u2019s more convenient for everyone around me. \u201cYou seem better\u201d is the biggest load of shit. I\u2019m not better, I\u2019m so far from it. I\u2019ve just gotten better at making you think I\u2019m okay, because then I don\u2019t have to hear that I\u2019m being difficult or stupid or irrational.  I just want to leave this fucked up world behind. I\u2019m over it all.",
+        "Well-being": 1,
+        "evidence": {
+          "adaptive-state": {
+            "Presence": 1
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(10) Angry (aggression), disgust, contempt",
+              "highlighted_evidence": "hate it more than anything."
+            },
+            "B-O": {
+              "Category": "(4) Over controlled or controlling behavior",
+              "highlighted_evidence": "I\u2019m so sick of having to pretend I\u2019m okay because it\u2019s more convenient for everyone around me"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I\u2019m not better, I\u2019m so far from it."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "\u201cYou seem better\u201d is the biggest load of shit"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I just want to leave this fucked up world behind. I\u2019m over it all."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "422dd6f5c4",
+        "date": "07-11-2019, 05:47:48",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "It\u2019s never going to get better is it?\nEvery single day is the same. I can go out and convince everyone, including myself, that I\u2019m okay. But then I come home and the heavy feelings set in and I fall apart.  I\u2019ve been losing sleep because my mind won\u2019t shut off. I just keep thinking about how much better things were before, but then questioning if they were ever really better at all.  I\u2019m tired of falling apart every night and having to put myself back together every morning. I\u2019m tired of being around people who have better lives than me. I\u2019m tired of being bitter and angry at the world.  I want to die, but I don\u2019t. I want everything to stop, but it isn\u2019t. I want things to change, but they haven\u2019t.  I just want to feel safe again.",
+        "Well-being": 2,
+        "evidence": {
+          "adaptive-state": {
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I want things to change,"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "But then I come home and the heavy feelings set in and I fall apart."
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I\u2019ve been losing sleep because my mind won\u2019t shut off"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I\u2019m tired of being around people who have better lives than me."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "It\u2019s never going to get better is it?"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 10,
+        "post_id": "8bf58653ec",
+        "date": "19-11-2019, 05:31:26",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "It\u2019s getting worse.\nI realized today that his birthday\u2019s coming up in a few weeks, which really puts into perspective how much time has passed since we were last okay. Before everything crashed and burned. I\u2019ve been numb this whole year, just floating through time because reality is miserable and I can\u2019t face it, but I\u2019m starting to more and more lately and I\u2019m miserable for it.  Holidays and family events were always the worst for him, for both of us really. I miss how we\u2019d help each other through it, being the strength for each other that we needed. All I feel now is weak, like a fragile shell of a girl I used to be.  There\u2019s so much I wish I could say to him. Losing the opportunity to spend my life with him is painful, but nothing beats the pain of losing the friendship we had. He was my very best friend and I\u2019ll never get that back, and it kills me every god damn day. I\u2019ll never feel that good or whole again.  I don\u2019t think time is healing anything.",
+        "Well-being": 1,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(3) Sad, emotional pain, grieving",
+              "highlighted_evidence": "I miss how we\u2019d help each other through it, being the strength for each other that we needed"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(8) Apathic, don\u2019t care, blunted",
+              "highlighted_evidence": "\u2019ve been numb this whole year, just floating through time because reality is miserable and I can\u2019t face it"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "All I feel now is weak, like a fragile shell of a girl I used to be"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "There\u2019s so much I wish I could say to him. Losing the opportunity to spend my life with him is painful, but nothing beats the pain of losing the friendship we had. He was my very best friend"
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "I\u2019ll never get that back, and it kills me every god damn day. I\u2019ll never feel that good or whole again.  I don\u2019t think time is healing anything."
+            },
+            "Presence": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "62defd8df2",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "b60098236e",
+        "date": "02-04-2019, 19:40:55",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Feeling as if I go cross eyed?\nI have OCD &amp; anxiety and usually when talking to people (which often makes me subconsciously stressed/uncomfortable due to intrusive thoughts and overthinking) I get this feeling that my eyes are crossing?   *Apparently* they aren\u2019t according to other people. When it\u2019s bad I obsessively check it in my camera and take lots of photos just to make sure. does anyone else experience this? Is it my OCD tricking me again? Making me hyper aware of everything my body is doing? Or is it something else. I can\u2019t find anything on google about it.   Thank you in advance   /r/Anxiety /r/SocialAnxiety /r/ocd /r/MentalHealth",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I can\u2019t find anything on google about it"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Thank you in advance"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "When it\u2019s bad I obsessively check it in my camera and take lots of photos just to make sure"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": ". When it\u2019s bad I obsessively check it in my camera and take lots of photos just to make sure"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "f930b32cbd",
+        "date": "02-04-2019, 20:01:00",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Can anyone shed any light on this? I have OCD and one of my \u2018intrusive thoughts/obsessions\u2019 is believing and making myself believe I have another disorder (not going to be specific) I can\u2019t find any other information on this and if anyone could help I\u2019d really appreciate it.   I find it quite distressing and disabling especially when it comes to social interaction. I overanalyse and overthink every tiny thing I do and make it so it\u2019s justifiable that I have this disorder. I think about my childhood, and any other instances where it could be applicable. My brain sometimes creates \u2018false memories\u2019 that do this as well. My \u2018compulsion\u2019 when it comes to this disorder is doing copious amounts of research and getting reassurance. It\u2019s an endless cycle. I find this particular aspect of my ocd particularly challenging because it\u2019s more feasible than other intrusive or obsessive thoughts.   I have actually considered going to get tested for a diagnosis so I can begin to calm my thoughts. OCD demands clarity. I get incredibly manic and frustrated when I can\u2019t act on my compulsion and research and reassure myself.   I\u2019ve stopped talking in social situations altogether now sometimes so my brain can\u2019t somehow make me think I\u2019m exhibiting traits/symptoms of a disability or a disorder (on top of making time think I\u2019ve offended/hurt someone). I\u2019m not sure what it\u2019s all about. I\u2019m not afraid of having this disorder or disability. I think it all comes down to not knowing how I come across/look.   I can\u2019t explain it. Can anyone else relate or shed some light on what type of thing this is?   Thank you  X",
+        "Well-being": 6,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "if anyone could help I\u2019d really appreciate it."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I think about my childhood, and any other instances where it could be applicable. My brain sometimes creates \u2018false memories\u2019 that do this as well. My \u2018compulsion\u2019 when it comes to this disorder is doing copious amounts of research and getting reassurance. It\u2019s an endless cycle. I find this particular aspect of my ocd particularly challenging because it\u2019s more feasible than other intrusive or obsessive thoughts.   I have actually considered going to get tested for a diagnosis so I can begin to calm my thoughts."
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "\u2019ve stopped talking in social situations altogether now sometimes"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I overanalyse and overthink every tiny thing I do and make it so it\u2019s justifiable that I have this disorder."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "cb48f7e5e5",
+        "date": "17-04-2019, 20:12:31",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "I\u2019m so lonely please help\nHello :)  I\u2019m so lonely all the time. The friends I did have I didn\u2019t consider quality friends and I cut them off when I noticed I wasn\u2019t being invited to things anymore. I have felt lonely deep in my soul for about four years now and I don\u2019t know how to shake it.   I feel depressed a lot and I believe it\u2019s the reason I have lost my sense of self. I also suffer from (social) anxiety and OCD (pure o). I cant make connections with people because I feel so empty, I don\u2019t trust my social skills or my personality to carry me. I feel like everything I do is fake (maybe partly due to the nature of my OCD). So it\u2019s not even like \u2018joining a club\u2019 would help me at this point. I need to work on myself first. But it\u2019s so hard with no one to talk to or do things with.   Everything feel so meaningless now. I look at everyone else making connections with people and at the very most I can do small talk. I am truly pathetic. My social anxiety mixed with OCD and depression feels crippling. I feel as though I\u2019m missing out on one of the best times in my life. I\u2019m on the outside looking in at everyone having fun and being capable. I know everyone likely suffers from some form of mental illness and is just putting on a brace face, but I feel it\u2019s so much easier when those people have good friends, plans, jobs, reasons to wake up.   Can anyone give me any advice / stories that will give me hope to continue.   Thank you :) /r/SocialAnxiety /r/depressed /r/Depression /r/help /r/MentalHealth /r/ocd /r/Advice",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "please help"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Can anyone give me any advice / stories that will give me hope to continue.   Thank you"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(14) Feel lonely",
+              "highlighted_evidence": "I have felt lonely deep in my soul for about four years now"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I am truly pathetic"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I noticed I wasn\u2019t being invited to things anymore."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I don\u2019t trust my social skills or my personality to carry me."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "3663fd047a",
+        "date": "29-04-2019, 16:35:41",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "Liquid silicone or liquid latex?\nHi,   I\u2019m a complete amateur. I have to make a short film for college and for my film I will have to use some special effects make up. I want to make my characters cheekbones/lips bigger etc. How can I achieve this on a budget?   I want it to sort of resemble \u2018lady in the radiator\u2019 from eraserhead but slightly less extreme. Thanks \ud83d\ude00",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Thanks"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "Hi,   I\u2019m a complete amateur"
+            },
+            "Presence": 2
+          }
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "f1180c97cd",
+        "date": "07-05-2019, 17:28:12",
+        "Switch": "S",
+        "Escalation": "E",
+        "post": "I think there\u2019s something very wrong with me.\nHello reddit   Just a disclaimer before I write this. I have depression, anxiety, suspected OCD and social anxiety. :) I have not taken any meds for any of them.   But other than those...I just think there\u2019s something really wrong with my personality. I\u2019m writing this because I can\u2019t get it out of my head and I\u2019m wondering if anyone has any tips or feels the same. I can\u2019t stop thinking there\u2019s something just completely wrong with ME. which is part of the problem in itself I guess.    Up until this point in my life I\u2019ve always thought I\u2019ve just been shy. But now I\u2019m rethinking my entire life. What if I have NO IDEA how to socialise. I\u2019m afraid of being obnoxious or annoying or a burden so I don\u2019t really talk that much (no one has ever said I have before so I don\u2019t know where this has come from, but it\u2019s been since I was little) I keep my answers to things at a minimum. I just thought this is how I was with people I\u2019m not really close with (including my family) - id rather talk about them not me. But now im thinking what if I\u2019m so painfully awkward I have no idea how to elaborate, be enthusiastic (depression?) and have a full conversation. I can\u2019t tell stories!!! I stutter and I get nervous, even if it\u2019s a banging story. ( I think no one cares) is it low self esteem or am I socially inept? I can\u2019t trust myself. I want to be witty and funny and NOT awkward with everyone, but I seem so be so painfully reserved I have no idea how. It must just be ingrained in my personality.   In reality, in my rational, not mentally ill brain, i DONT CARE about being judged. I know people don\u2019t think about my mistakes or even notice them in the same way that I do. But it\u2019s something I cannot shake. And it\u2019s awful. There must be something up.   **i struggle in social situations:**i used to have friends up until recently. I cut them off (or rather we cut each other off as they haven\u2019t reached out since) because I couldn\u2019t get the idea that they hated me out my mind. Every time I met them I felt cripplingly insecure. I stopped being invited to things. We had been friends for about a year prior and I think at some point my brain just snapped? I hated my personality. I felt like everyone was laughing at me. But anyway, I\u2019ve always considered myself a shy person, but not totally socially inept. But now I\u2019m wondering if I am socially inept??? My brain goes blank sometimes, my heart beats fast and I can go red. I speak SO QUIETLY. I\u2019m so unsure of everything I say. I feel embarrassed when I talk. I\u2019m awkward. I listen to other people talk with ease and I\u2019m just in awe. How do they do that? I am good with eye contact but due to OCD (I\u2019ve been told) I am hyper aware of everything I\u2019m doing. I also get intrusive thoughts. Once I realise I\u2019m making eye contact I freak out, think I\u2019m going cross eyed or something. I feel utterly hopeless. I don\u2019t know how to make friends anymore. Did I ever? I\u2019m second guessing every single thing about my personality. I feel unlikable and unnoticeable.   I have a constant inner monologue, which is semi normal as far as I\u2019m aware - but every time I speak I think I overthink. It\u2019s less of a voice telling me everything I say is stupid but more of a feeling. I\u2019m worried I\u2019ve lost all my social capabilities. I can\u2019t trust myself so how would I know? Apparently it\u2019s not as visible on the outside. I seek reassurance (ocd), not too much because it\u2019s really annoying lol but if I\u2019ve just interacted with someone and I\u2019m with my boyfriend, after that\u2019s over I\u2019ll ask him things like \u201cwas that ok? Did I sound weird? Did I look weird?\u201d. My family have joked that I have \u2018personality dysmorphia\u2019 lol. Is that even possible.   I\u2019m just really scared because I don\u2019t want to be socially inept. I\u2019m seeing something that others don\u2019t as well. I just want to socialise with ease. If I CAN get rid of the anxiety I just get worried about what I\u2019ll say and my mind goes blank. If in the moment I\u2019m ok, afterwards I\u2019ll overanalyse it.   It\u2019s gotten to the point where I don\u2019t even know if I\u2019m not being myself because I don\u2019t know what myself is. I CANNOT trust myself. I just want to skip through the cracks. I\u2019m worried I\u2019ll upset or hurt people if I talk to them too which is slightly irrational. I\u2019ll beat myself up for weird things I\u2019ve done and I\u2019ll remind myself I haven\u2019t even done or said that?????   Also sometimes I feel completely STUCK and unable to say something. And sometimes I\u2019ll think of something to say or want to say something and I\u2019ll think nah that\u2019s stupid or something and someone else will say it out loud and I\u2019m like oh. A sign from the universe that I\u2019m perhaps not as bad as I think? I prefer groups to one on one because there\u2019s less pressure and it\u2019s easier to blend in. I\u2019ll avoid people around college because I\u2019m scared of confrontation. I can\u2019t connect with people anymore (have I ever been able to?) I\u2019m basically worried that I\u2019m really weird because I must be so awkward. Being hyper aware of everything I\u2019m doing is hard. I feel like I look like a new born giraffe when I walk. I can\u2019t connect with anyone I feel.   Is it my mental health (something fixable) or is it something else?     Please help Anyone :)  /r/SocialSkills /r/SocialAnxiety /r/ocd /r/MentalHealth",
+        "Well-being": 3,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "Please help"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I\u2019m wondering if anyone has any tips or feels the same"
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "I know people don\u2019t think about my mistakes or even notice them in the same way that I do"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "I just want to socialise with ease"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I\u2019m just really scared because I don\u2019t want to be socially inept."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I CANNOT trust myself"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I couldn\u2019t get the idea that they hated me out my mind"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "fa7834e029",
+        "date": "07-05-2019, 23:04:35",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "Worried there\u2019s something wrong with me other than mental illness.\nHello reddit   I think something is wrong with me other than mental illness. But I can\u2019t even tell if it\u2019s my OCD making me think this anymore. Has my OCD latched onto something? What if I am just really really unable to function.    Just a disclaimer before I write this. I have depression, anxiety, suspected OCD and social anxiety. :) I have not taken any meds for any of them.   But other than those...I just think there\u2019s something really wrong with my personality. I\u2019m writing this because I can\u2019t get it out of my head and I\u2019m wondering if anyone has any tips or feels the same. I can\u2019t stop thinking there\u2019s something just completely wrong with ME. which is part of the problem in itself I guess.    Up until this point in my life I\u2019ve always thought I\u2019ve just been shy. But now I\u2019m rethinking my entire life. What if I have NO IDEA how to socialise. I\u2019m afraid of being obnoxious or annoying or a burden so I don\u2019t really talk that much (no one has ever said I have before so I don\u2019t know where this has come from, but it\u2019s been since I was little) I keep my answers to things at a minimum. I just thought this is how I was with people I\u2019m not really close with (including my family) - id rather talk about them not me. But now im thinking what if I\u2019m so painfully awkward I have no idea how to elaborate, be enthusiastic (depression?) and have a full conversation. I can\u2019t tell stories!!! I stutter and I get nervous, even if it\u2019s a banging story. ( I think no one cares) is it low self esteem or am I socially inept? I can\u2019t trust myself. I want to be witty and funny and NOT awkward with everyone, but I seem so be so painfully reserved I have no idea how. It must just be ingrained in my personality.   For example when someone used to ask me how I was, I knew the polite thing was to ask them back, but I used to feel so awkward and annoying I\u2019d just freeze up. Because why would they want to talk to me about their day? I feel unworthy. ???? On some level   In reality, in my rational, not mentally ill brain, i DONT CARE about being judged. I know people don\u2019t think about my mistakes or even notice them in the same way that I do. But it\u2019s something I cannot shake. And it\u2019s awful. There must be something up.   **i struggle in social situations:**i used to have friends up until recently. I cut them off (or rather we cut each other off as they haven\u2019t reached out since) because I couldn\u2019t get the idea that they hated me out my mind. Every time I met them I felt cripplingly insecure. I stopped being invited to things. We had been friends for about a year prior and I think at some point my brain just snapped? I hated my personality. I felt like everyone was laughing at me. But anyway, I\u2019ve always considered myself a shy person, but not totally socially inept. But now I\u2019m wondering if I am socially inept??? My brain goes blank sometimes, my heart beats fast and I can go red. I speak SO QUIETLY. I\u2019m so unsure of everything I say. I feel embarrassed when I talk. I\u2019m awkward. I listen to other people talk with ease and I\u2019m just in awe. How do they do that? I am good with eye contact but due to OCD (I\u2019ve been told) I am hyper aware of everything I\u2019m doing. I also get intrusive thoughts. Once I realise I\u2019m making eye contact I freak out, think I\u2019m going cross eyed or something. I feel utterly hopeless. I don\u2019t know how to make friends anymore. Did I ever? I\u2019m second guessing every single thing about my personality. I feel unlikable and unnoticeable.   I have a constant inner monologue, which is semi normal as far as I\u2019m aware - but every time I speak I think I overthink. It\u2019s less of a voice telling me everything I say is stupid but more of a feeling. I\u2019m worried I\u2019ve lost all my social capabilities. I can\u2019t trust myself so how would I know? Apparently it\u2019s not as visible on the outside. I seek reassurance (ocd), not too much because it\u2019s really annoying lol but if I\u2019ve just interacted with someone and I\u2019m with my boyfriend, after that\u2019s over I\u2019ll ask him things like \u201cwas that ok? Did I sound weird? Did I look weird?\u201d. My family have joked that I have \u2018personality dysmorphia\u2019 lol. Is that even possible.   I\u2019m just really scared because I don\u2019t want to be socially inept. I\u2019m seeing something that others don\u2019t as well. I just want to socialise with ease. If I CAN get rid of the anxiety I just get worried about what I\u2019ll say and my mind goes blank. If in the moment I\u2019m ok, afterwards I\u2019ll overanalyse it.   It\u2019s gotten to the point where I don\u2019t even know if I\u2019m not being myself because I don\u2019t know what myself is. I CANNOT trust myself. I just want to skip through the cracks. I\u2019m worried I\u2019ll upset or hurt people if I talk to them too which is slightly irrational. I\u2019ll beat myself up for weird things I\u2019ve done and I\u2019ll remind myself I haven\u2019t even done or said that?????   Also sometimes I feel completely STUCK and unable to say something. And sometimes I\u2019ll think of something to say or want to say something and I\u2019ll think nah that\u2019s stupid or something and someone else will say it out loud and I\u2019m like oh. A sign from the universe that I\u2019m perhaps not as bad as I think? I prefer groups to one on one because there\u2019s less pressure and it\u2019s easier to blend in. I\u2019ll avoid people around college because I\u2019m scared of confrontation. I can\u2019t connect with people anymore (have I ever been able to?) I\u2019m basically worried that I\u2019m really weird because I must be so awkward. Being hyper aware of everything I\u2019m doing is hard. I feel like I look like a new born giraffe when I walk. I can\u2019t connect with anyone I feel.   Is it my mental health (something fixable) or is it something else?     Please help Anyone :)  /r/SocialSkills /r/SocialAnxiety /r/ocd /r/MentalHealth",
+        "Well-being": 3,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "Please help"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I\u2019m wondering if anyone has any tips or feels the same."
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "I know people don\u2019t think about my mistakes or even notice them in the same way that I do"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "A sign from the universe that I\u2019m perhaps not as bad as I think?"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I\u2019m just really scared because I don\u2019t want to be socially inept."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I CANNOT trust myself."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I couldn\u2019t get the idea that they hated me out my mind"
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "8850837b95",
+        "date": "07-05-2019, 23:27:40",
+        "Switch": "0",
+        "Escalation": "E",
+        "post": "What is masking?\nWhat is ***masking*** and how is it different to picking and choosing parts of your personality to bring out depending on the social setting? Eg you\u2019re going to be different at work compared to at the pub? Right?   /r/Aspergers",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "4091f7e8b8",
+        "date": "08-05-2019, 13:49:05",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "Why do I give short answers?\nWhen asked how I am or how was my day I never really want to say much as I don\u2019t want to be a burden. I\u2019ve done this for so long I also don\u2019t know what to say - I forget my day as soon as I live it. It\u2019s not like someone\u2019s like \u201cdid you have a good day\u201d and I\u2019m like blunt af like \u201cyep\u201d I\u2019m polite and all but why don\u2019t I ever expand when asked questions and I usually just turn it back on the other person and they have a lot to say. I feel like a diluted version of myself when I\u2019m not around like one close friend. Even family. Does anyone else do this? Why am I so afraid to talk about myself for longer than like a second. Low self esteem? Or is there something wrong with me?   I want to be able to talk about myself a bit more because that\u2019s how people get to know you. I\u2019m way too closed off? I can\u2019t even help it anymore I just think no one cares lol I feel like it gives off such a weird vibe especially if I have spoken to you more than once lol it\u2019s like I\u2019m hiding something or don\u2019t trust the person (or myself) enough to open up   What is this   /r/Socialskills /r/SocialAnxiety /r/ocd /r/TooAfraidToAsk",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "I want to be able to talk about myself a bit more because that\u2019s how people get to know you."
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I feel like it gives off such a weird vibe especially if I have spoken to you more than once lol it\u2019s like I\u2019m hiding something or don\u2019t trust the person (or myself) enough to open up"
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "I usually just turn it back on the other person and they have a lot to say"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "Or is there something wrong with me?"
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "I just think no one cares"
+            },
+            "Presence": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timeline_id": "6c9677b482",
+    "posts": [
+      {
+        "post_index": 1,
+        "post_id": "90edf45d8f",
+        "date": "22-01-2015, 14:18:19",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Assorted lithuanian fatlogic, featuring contradictions, \"don't count calories\", \"exercise less\" and good ol' starvation mode",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 2,
+        "post_id": "e5c7bf69f5",
+        "date": "23-01-2015, 00:42:04",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "[Rant] I have trouble leaving the house. When I do, people assume I am something that I hate.\nSo, for some backstory - I've had depression, avoidance and anxiety for about 12 years now. It completely ruined my life; I dropped out of education, I'm unable to work, I have 0 friends in real life and human interaction terrifies or even disgusts me. Being in a crowded place could make me cry. I would stay in my flat for months, just getting groceries every now and then, rarely ever cleaning up after myself and sinking into the internet for distraction, so I wouldn't have to feel anything.   The last year has been the first that I actually felt like I'm getting better. I'm being treated medically and with therapy, I am no longer completely lonely and I have been making efforts to do things, even ones I don't like. I have been leaving the house.   However, I moved. I got into a really bad place for the first few months and shelled in again, but now I got used to my new temporary home and environment. However, going out is much, much harder.  I'm in Israel right now, so I stand out a bit as a pale, tall northern european girl. People stare at me. There have been cases when they actually made remarks about how pale I am, that I look like a freak and a snob. But that's not the worst part.  Whenever I go to a new restaurant or other place where you are catered to by other people, they assume that I'm russian. Now, that might not seem like a big deal, as they don't mean any harm - they see an european looking person and assume that. But it fills me with burning anger and self-disgust.  Russians have killed, raped and mentally scarred people from my country for decades. Several members of my family were killed by them. The same applies to many other european countries and this amount of ignorance is appalling. Our ancestors, language and alphabet, religion and folklore are completely different. I have no russians in my bloodline. There is literally no connection between us other than war, blood and perhaps commerce. Unless you hear a person speaking russian, you shouldn't assume they are and I hate that it's happening to me.   Today, I asked for an English menu. I was instantly asked \"Russian?\" \"no...english\" \"oh, I just assumed, because you know...*waves towards my face*\" in that moment I felt so ashamed, dirty and angry. I wanted to smash my face until it was something else. I wanted to burrow myself into the ground. I wanted to blurt out \"I wonder how you would feel if everyone assumed you were palestinian\" but I just kept quiet with my distilled anger and shame. It wasn't their fault and I shouldn't insult them.  I don't know how to deal with this. I hate this so much. I don't want to deal with this ever again but the fact I have to force myself out means I will have to. Fuck this.",
+        "Well-being": 5,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(5) Content, happy, joy, hopeful",
+              "highlighted_evidence": "The last year has been the first that I actually felt like I'm getting better"
+            },
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I'm being treated medically and with therapy, I am no longer completely lonely and I have been making efforts to do things, even ones I don't like"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "The last year has been the first that I actually felt like I'm getting better"
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "I have been making efforts to do things, even ones I don't like. I have been leaving the house."
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(10) Angry (aggression), disgust, contempt",
+              "highlighted_evidence": "I just kept quiet with my distilled anger and shame."
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I have trouble leaving the house."
+            },
+            "B-O": {
+              "Category": "(2) Fight or flight behavior",
+              "highlighted_evidence": "I have 0 friends in real life and human interaction terrifies or even disgusts me. Being in a crowded place could make me cry"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I wanted to smash my face until it was something else. I wanted to burrow myself into the ground."
+            },
+            "C-O": {
+              "Category": "(2) Perception of the other as detached or over attached",
+              "highlighted_evidence": "People stare at me. There have been cases when they actually made remarks about how pale I am, that I look like a freak and a snob. But that's not the worst part.  Whenever I go to a new restaurant or other place where you are catered to by other people, they assume that I'm russian."
+            },
+            "D": {
+              "Category": "(2) Expectation that relatedness needs will not be met",
+              "highlighted_evidence": "I don't want to deal with this ever again but the fact I have to force myself out means I will have to. Fuck this."
+            },
+            "Presence": 4
+          }
+        }
+      },
+      {
+        "post_index": 3,
+        "post_id": "6326af4746",
+        "date": "24-01-2015, 16:44:01",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Long term girlfriend of a friend killed herself. He wants to follow suit.\nI've known him through the internet for about 5 years. He's halfway across the globe so there's no way for me to physically meet him.  What should I do? What would you like to be done to you, to consider not dying in such a situation?  I've tried messaging online, texting, replied to his initial post, encouraged others he knows to reach out....but it feels like I'm trying to melt an iceberg with a blowdryer. Useless. Not enough.  I know exactly how it feels to want to die and he doesn't deserve it. She didn't deserve it. It's quite possibly the most excruciating thing one can experience; so strong it makes you go against basic human nature. I feel powerless.",
+        "Well-being": 6,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "I've tried messaging online, texting, replied to his initial post, encouraged others he knows to reach out"
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "I know exactly how it feels to want to die and he doesn't deserve it. She didn't deserve it."
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "What should I do? What would you like to be done to you, to consider not dying in such a situation?"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(4) Depressed, despair, hopeless",
+              "highlighted_evidence": "but it feels like I'm trying to melt an iceberg with a blowdryer. Useless"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "I feel powerless"
+            },
+            "Presence": 2
+          }
+        }
+      },
+      {
+        "post_index": 4,
+        "post_id": "128dcb2b1f",
+        "date": "25-01-2015, 16:56:18",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Good recipes with sweet chili? + delicious and filling soup recipe for 197 kcal/serving!\nMy fiancee couldn't find the healthy sweet chili he likes, so he got a different one that's almost the same, but the container is huuuuge. We have 0,7 l of chili and I have no clue what to do with it other than the usual sandwich condiment. If you have any recipes, I'd really appreciate them!   Posting one of my favourite soup recipes, super filling and fairly low calorie.  **[Beef and pearl barley soup](http://i.imgur.com/Bi2gtd1.png) (serving - 373 ml)**  **Ingredients**  * 2 tbsp. olive oil * 450g lean beef, cut into cubes * 1 onion * 2 minced garlic cloves * 115g pearl barley, uncooked (I like to soak the barley in water for an hour beforehand, but it's optional) * 2l + 0,7l beef stock (I used bullion cubes, but homemade would be better!) * 3 cut up carrots * 1 big leek stem * 1 big potato, cubed * 1 tbsp. thyme * 1 tbsp oregano * salt &amp; pepper  **Cooking**  1. Add oil to the pan and brown the beef. Put it aside. 1. Add onion + garlic into the same pan and fry until golden 1. Put the onion, pearl barley, beef and 2l stock into a large pot (at least 3,5l capacity) 1. Keep pot on high heat/open until it boils. Then switch to low heat and cover. Cook for 45 min. 1. Add carrots, leek, potato and 0,7l stock. Cook for 15 min or until the vegetables are soft. 1. Add thyme, oregano and salt&amp;pepper. You can skip the salt&amp;pepper if you used bullion cubes. :)  Enjoy!   *[edit] forgot to include serving size.*",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "one of my favourite soup recipes, super filling and fairly low calorie"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": ". If you have any recipes, I'd really appreciate them!   Posting one of my favourite soup recipes,"
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": ")  Enjoy!"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "If you have any recipes, I'd really appreciate them!"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "Presence": 1
+          }
+        }
+      },
+      {
+        "post_index": 5,
+        "post_id": "73bbee55b1",
+        "date": "30-01-2015, 07:01:37",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "I have scoliosis. What exercise should I avoid, if any?",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "What exercise should I avoid, if any?"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "I have scoliosis. What exercise should I avoid, if any?"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "Presence": 1
+          }
+        }
+      },
+      {
+        "post_index": 6,
+        "post_id": "56be7af2c2",
+        "date": "05-02-2015, 17:05:32",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Who needs healthy coping mechanisms when you have cake?",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 7,
+        "post_id": "2dba1cf25f",
+        "date": "10-02-2015, 20:00:50",
+        "Switch": "S",
+        "Escalation": "0",
+        "post": "I got trapped in bed over an irrational fear today.\nI actually woke up in the morning, but I couldn't leave the bed because I was too scared to step on the floor. I ended up trapped for 4 hours until my SO came home and carried me out/gave me shoes.  That's right. *Afraid to step on the floor.*  I allowed it to get pretty dirty and it disgusted me so much I couldn't bring myself to leave the bed without feeling sick in the stomach and close to tears. I felt like it could seep into my skin or that there was something living there. I knew the fear is irrational and nonsensical which added a lovely dose of self disgust over not being able to control it.  I should probably increase my anxiety med dosage but the last time I did it it left me sluggish and disconnected all day. I don't know what to do.",
+        "Well-being": 4,
+        "evidence": {
+          "adaptive-state": {
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "my SO came home and carried me out/gave me shoes"
+            },
+            "Presence": 2
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I couldn't leave the bed because I was too scared to step on the floor"
+            },
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "I ended up trapped for 4 hours"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "knew the fear is irrational and nonsensical which added a lovely dose of self disgust over not being able to control it."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "I don't know what to do."
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 8,
+        "post_id": "728bdb9d63",
+        "date": "02-03-2015, 17:42:48",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "[LF][US] LKali and Pandora friends!\nI have GZL and LKali up most of the time. Both max level, GZL max +egged, kali max skilled. While I have a sea of GZL friends, I have barely any kalis, so more would be very appreciated.   My Pandora team is almost up to speed now, and I'm starting to play her, but there is a severe lack of friends. She is max level and max skilled.  I play every day! 311,094,205",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      },
+      {
+        "post_index": 9,
+        "post_id": "c92ad964c4",
+        "date": "10-03-2015, 18:17:06",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "Going to be out of meds soon. Sense of impending doom.\nSo due to various circumstances, I will be unable to get a prescription for my medication until the 27th. I have enough until the 16th. I was lucky to stock up on my antidepressant for 2 months, but my anxiety and sleeping medication will be out.  I have gotten so much better, but it feels like it's all due to the meds. Just a small mishap with them knocks me back. I am expecting the worst. I don't know if I'll be able to handle it.  Have you ever had to deal with such a situation? How did it go?",
+        "Well-being": 6,
+        "evidence": {
+          "adaptive-state": {
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I was lucky to stock up on my antidepressant for 2 months"
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Have you ever had to deal with such a situation? How did it go?"
+            },
+            "C-S": {
+              "Category": "(1) Self-acceptance and compassion",
+              "highlighted_evidence": "I have gotten so much better"
+            },
+            "D": {
+              "Category": "(1) Relatedness",
+              "highlighted_evidence": "Have you ever had to deal with such a situation? How did it go?"
+            },
+            "Presence": 3
+          },
+          "maladaptive-state": {
+            "A": {
+              "Category": "(2) Anxious/ fearful/ tense",
+              "highlighted_evidence": "I am expecting the worst."
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "it feels like it's all due to the meds"
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "Sense of impending doom."
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 10,
+        "post_id": "e7f7c98b01",
+        "date": "12-03-2015, 10:50:14",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "[update] I went out to ask for help.\nI made [this post](https://www.reddit.com/r/Anxiety/comments/2yl0vn/going_to_be_out_of_meds_soon_sense_of_impending/) yesterday, about me possibly having to be off medication for a while.  The reason I got in this situation was moving countries, and my prescriptions not being valid where I was until I went through some bureaucracy with my psychiatrist. I went to schedule the meeting and the earliest they gave me was the 27th.  So, after spending a week worrying about this, I actually went out to the office again and explained my situation. They gave me an earlier date immediately. Why didn't I do it the first time? I was too scared to open my mount and ask for a different date. It sounds completely ridiculous but I physically couldn't do it.  Thanks to those of you that told me not to give up and gave me tips on my original post. I probably wouldn't have made myself go out if it wasn't for thinking over your posts.",
+        "Well-being": 7,
+        "evidence": {
+          "adaptive-state": {
+            "A": {
+              "Category": "(5) Content, happy, joy, hopeful",
+              "highlighted_evidence": "Thanks to those of you that told me not to give up and gave me tips on my original post. I probably wouldn't have made myself go out if it wasn't for thinking over your posts."
+            },
+            "B-S": {
+              "Category": "(1) Self care and improvement",
+              "highlighted_evidence": "I actually went out to the office again and explained my situation. They gave me an earlier date immediately."
+            },
+            "B-O": {
+              "Category": "(1) Relating behavior",
+              "highlighted_evidence": "Thanks to those of you that told me not to give up and gave me tips on my original post. I probably wouldn't have made myself go out if it wasn't for thinking over your posts."
+            },
+            "C-O": {
+              "Category": "(1) Perception of the other as related",
+              "highlighted_evidence": "Thanks to those of you that told me not to give up and gave me tips on my original post. I probably wouldn't have made myself go out if it wasn't for thinking over your posts."
+            },
+            "D": {
+              "Category": "(5) Competence, self esteem, self-care",
+              "highlighted_evidence": "me possibly having to be off medication for a while."
+            },
+            "Presence": 4
+          },
+          "maladaptive-state": {
+            "B-S": {
+              "Category": "(2) Self harm, neglect and avoidance",
+              "highlighted_evidence": "So, after spending a week worrying about this,"
+            },
+            "C-S": {
+              "Category": "(2) Self criticism",
+              "highlighted_evidence": "Why didn't I do it the first time? I was too scared to open my mount and ask for a different date."
+            },
+            "D": {
+              "Category": "(6) Expectation that competence needs will not be met",
+              "highlighted_evidence": "after spending a week worrying about this"
+            },
+            "Presence": 3
+          }
+        }
+      },
+      {
+        "post_index": 11,
+        "post_id": "613673e12e",
+        "date": "15-03-2015, 06:00:55",
+        "Switch": "0",
+        "Escalation": "0",
+        "post": "[RNG][brag] I think I broke PaD",
+        "Well-being": null,
+        "evidence": {
+          "adaptive-state": {},
+          "maladaptive-state": {}
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voice Triage Research App</title>
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --surface: #ffffff;
+      --ink: #0f172a;
+      --muted: #5b677a;
+      --line: #d7dee9;
+      --blue: #0e7490;
+      --blue-soft: #e7f7fb;
+      --green: #15803d;
+      --green-soft: #e9f9ee;
+      --amber: #b45309;
+      --amber-soft: #fff7df;
+      --red: #b91c1c;
+      --red-soft: #fff1f2;
+      --violet: #6d28d9;
+      --violet-soft: #f4efff;
+      --shadow: 0 18px 55px rgba(15, 23, 42, 0.10);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(247, 249, 252, 0.94)),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1400' height='900' viewBox='0 0 1400 900'%3E%3Crect width='1400' height='900' fill='%23eef6f9'/%3E%3Cpath d='M0 220C230 150 390 300 610 220C850 132 1010 140 1400 80V900H0Z' fill='%23f9fbf5'/%3E%3Cpath d='M0 610C210 540 380 645 570 590C770 532 920 490 1400 560V900H0Z' fill='%23eef3ff'/%3E%3C/svg%3E");
+      background-size: cover;
+      letter-spacing: 0;
+    }
+
+    button, input, textarea {
+      font: inherit;
+    }
+
+    .app-shell {
+      width: min(1440px, 100%);
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 24px;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 18px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 16px 18px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .brand-mark {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: linear-gradient(135deg, #0e7490, #15803d);
+      box-shadow: 0 10px 28px rgba(14, 116, 144, 0.22);
+      flex: 0 0 auto;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: clamp(20px, 2vw, 28px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .brand p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .status-strip {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .chip {
+      min-height: 32px;
+      padding: 7px 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #334155;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #94a3b8;
+    }
+
+    .dot.ready {
+      background: var(--green);
+    }
+
+    .dot.recording {
+      background: var(--red);
+      box-shadow: 0 0 0 5px rgba(185, 28, 28, 0.11);
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: minmax(320px, 390px) minmax(420px, 1fr) minmax(320px, 390px);
+      gap: 18px;
+      min-height: 0;
+    }
+
+    .panel {
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      min-width: 0;
+    }
+
+    .panel-header {
+      min-height: 58px;
+      padding: 16px 18px 12px;
+      border-bottom: 1px solid #edf1f7;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .panel-title {
+      margin: 0;
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+
+    .panel-body {
+      padding: 18px;
+    }
+
+    .record-stage {
+      display: grid;
+      gap: 18px;
+    }
+
+    .mic-card {
+      min-height: 270px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      border: 1px solid #d9e8ee;
+      border-radius: 14px;
+      background: linear-gradient(180deg, #f6fcfe, #ffffff);
+    }
+
+    .mic-button {
+      width: 142px;
+      height: 142px;
+      border: 0;
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, #0e7490, #0f766e);
+      box-shadow: 0 20px 45px rgba(14, 116, 144, 0.28);
+      transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+    }
+
+    .mic-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 24px 56px rgba(14, 116, 144, 0.34);
+    }
+
+    .mic-button.is-recording {
+      background: linear-gradient(135deg, #b91c1c, #c2410c);
+      box-shadow: 0 24px 56px rgba(185, 28, 28, 0.26);
+    }
+
+    .mic-label {
+      margin: 16px 0 0;
+      font-weight: 700;
+    }
+
+    .mic-subtext {
+      margin: 6px auto 0;
+      color: var(--muted);
+      font-size: 13px;
+      max-width: 260px;
+      line-height: 1.4;
+    }
+
+    .waveform {
+      height: 92px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .bar {
+      width: 100%;
+      min-width: 4px;
+      border-radius: 6px;
+      background: linear-gradient(180deg, #22c55e, #0891b2);
+      transform-origin: center;
+      height: 18px;
+      transition: height 90ms linear, opacity 90ms linear;
+      opacity: 0.55;
+    }
+
+    .metric-stack {
+      display: grid;
+      gap: 10px;
+    }
+
+    .metric {
+      min-height: 64px;
+      padding: 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    .metric-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: #334155;
+    }
+
+    .meter {
+      margin-top: 9px;
+      height: 8px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #e2e8f0;
+    }
+
+    .meter span {
+      display: block;
+      height: 100%;
+      width: 0%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #0e7490, #22c55e);
+      transition: width 160ms ease;
+    }
+
+    .main-column {
+      display: grid;
+      grid-template-rows: auto minmax(250px, 1fr) auto;
+      gap: 18px;
+      min-height: 0;
+    }
+
+    .transcript-card {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      min-height: 0;
+    }
+
+    .tabs {
+      display: inline-flex;
+      padding: 3px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #f8fafc;
+    }
+
+    .tab {
+      border: 0;
+      background: transparent;
+      color: #475569;
+      min-height: 30px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .tab.active {
+      background: #fff;
+      color: var(--ink);
+      box-shadow: 0 1px 6px rgba(15, 23, 42, 0.12);
+    }
+
+    .transcript-box {
+      min-height: 310px;
+      resize: vertical;
+      width: 100%;
+      border: 0;
+      outline: none;
+      color: var(--ink);
+      background: transparent;
+      line-height: 1.55;
+      font-size: 16px;
+    }
+
+    .partial-line {
+      min-height: 42px;
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 12px;
+      border: 1px dashed #b7c5d6;
+      color: #475569;
+      background: #f8fafc;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .btn {
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      color: #1f2937;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-weight: 700;
+      transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      border-color: #94a3b8;
+    }
+
+    .btn.primary {
+      background: #0e7490;
+      color: #fff;
+      border-color: #0e7490;
+    }
+
+    .btn.warning {
+      background: var(--red-soft);
+      color: var(--red);
+      border-color: #fecdd3;
+    }
+
+    .model-output {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .result-tile {
+      padding: 14px;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+      background: #fff;
+      min-height: 94px;
+    }
+
+    .result-tile strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 13px;
+      color: #475569;
+    }
+
+    .result-value {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .tier-low {
+      color: var(--green);
+    }
+
+    .tier-mid {
+      color: var(--amber);
+    }
+
+    .tier-high {
+      color: var(--red);
+    }
+
+    .side-column {
+      display: grid;
+      gap: 18px;
+      align-content: start;
+    }
+
+    .policy-card {
+      border-left: 5px solid var(--amber);
+    }
+
+    .policy-card.high {
+      border-left-color: var(--red);
+    }
+
+    .response-box {
+      min-height: 160px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      color: #1f2937;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    .json-box {
+      max-height: 235px;
+      overflow: auto;
+      padding: 14px;
+      border-radius: 12px;
+      border: 1px solid #dce3ed;
+      background: #0f172a;
+      color: #d1fae5;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .evidence-list {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .evidence-list li {
+      padding: 9px 10px;
+      border-radius: 10px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .notice {
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: var(--violet-soft);
+      border: 1px solid #ddd6fe;
+      color: #4c1d95;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .footer-note {
+      color: #64748b;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    svg {
+      display: block;
+    }
+
+    @media (max-width: 1180px) {
+      .workspace {
+        grid-template-columns: 360px 1fr;
+      }
+
+      .side-column {
+        grid-column: 1 / -1;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 820px) {
+      .app-shell {
+        padding: 14px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .status-strip {
+        justify-content: flex-start;
+      }
+
+      .workspace,
+      .side-column,
+      .model-output,
+      .actions {
+        grid-template-columns: 1fr;
+      }
+
+      .mic-card {
+        min-height: 230px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <path d="M12 3v18M7 8v8M17 8v8M4 11v2M20 11v2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <h1>Voice Triage Research App</h1>
+          <p>Live ASR, student-model triage, acoustic context, and spoken response</p>
+        </div>
+      </div>
+      <div class="status-strip" aria-label="system status">
+        <span class="chip"><span id="micDot" class="dot ready"></span><span id="micStatus">Mic ready</span></span>
+        <span class="chip"><span class="dot ready"></span><span id="asrStatus">ASR standby</span></span>
+        <span class="chip"><span id="modelDotChip" class="dot"></span><span id="modelStatus">Checking model…</span></span>
+        <span class="chip"><span id="latencyText">Latency: idle</span></span>
+        <details class="chip" id="endpointSettings" style="cursor:pointer;">
+          <summary style="list-style:none;">Endpoint</summary>
+          <div style="display:grid;gap:6px;margin-top:8px;min-width:260px;">
+            <label style="font-size:11px;color:#64748b;">Base URL (OpenAI-compatible /v1)
+              <input id="apiBaseUrl" type="text" value="http://localhost:8000/v1" style="width:100%;padding:5px 7px;border:1px solid var(--line);border-radius:8px;">
+            </label>
+            <label style="font-size:11px;color:#64748b;">Model name
+              <input id="apiModel" type="text" value="local-student-triage-model" style="width:100%;padding:5px 7px;border:1px solid var(--line);border-radius:8px;">
+            </label>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <section class="workspace">
+      <aside class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">Voice Input</h2>
+          <span class="chip"><span id="vadDot" class="dot"></span><span id="vadText">VAD idle</span></span>
+        </div>
+        <div class="panel-body record-stage">
+          <div class="mic-card">
+            <div>
+              <button id="recordBtn" class="mic-button" aria-label="Start recording">
+                <svg width="58" height="58" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3a4 4 0 0 0-4 4v5a4 4 0 0 0 8 0V7a4 4 0 0 0-4-4Z" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M5 11a7 7 0 0 0 14 0M12 18v3M8.5 21h7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </button>
+              <p id="recordLabel" class="mic-label">Start session</p>
+              <p class="mic-subtext">Uses browser speech recognition when available. Demo mode still works without ASR.</p>
+            </div>
+          </div>
+
+          <div class="waveform" id="waveform" aria-label="audio level visualization"></div>
+
+          <div class="metric-stack">
+            <div class="metric">
+              <div class="metric-row"><span>Voice energy</span><strong id="energyLabel">0%</strong></div>
+              <div class="meter"><span id="energyMeter"></span></div>
+            </div>
+            <div class="metric">
+              <div class="metric-row"><span>Pause burden</span><strong id="pauseLabel">low</strong></div>
+              <div class="meter"><span id="pauseMeter"></span></div>
+            </div>
+            <div class="metric">
+              <div class="metric-row"><span>Speech rate</span><strong id="rateLabel">waiting</strong></div>
+              <div class="meter"><span id="rateMeter"></span></div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="main-column">
+        <article class="panel transcript-card">
+          <div class="panel-header">
+            <h2 class="panel-title">Transcript</h2>
+            <div class="tabs" aria-label="transcript mode">
+              <button class="tab active" type="button">Live</button>
+              <button class="tab" type="button" id="demoBtn">Demo text</button>
+            </div>
+          </div>
+          <div class="panel-body">
+            <textarea id="transcript" class="transcript-box" spellcheck="true" placeholder="Transcript will appear here. You can also type or paste text for a demo run."></textarea>
+            <div id="partial" class="partial-line">Partial ASR text appears here while speech is still being decoded.</div>
+          </div>
+        </article>
+
+        <div class="actions">
+          <button id="analyzeBtn" class="btn primary" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 12h5l2-6 4 12 2-6h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Analyze
+          </button>
+          <button id="speakBtn" class="btn" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 9v6h4l5 4V5L9 9H5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M17 9.5a4 4 0 0 1 0 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            Speak
+          </button>
+          <button id="clearBtn" class="btn" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M9 7V5h6v2M8 11v7M12 11v7M16 11v7M6 7l1 14h10l1-14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            Clear
+          </button>
+          <button id="escalateBtn" class="btn warning" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 9v4M12 17h.01M10.3 4.5 2.8 18a2 2 0 0 0 1.7 3h15a2 2 0 0 0 1.7-3L13.7 4.5a2 2 0 0 0-3.4 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            Escalate
+          </button>
+        </div>
+
+        <article class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">Student Model Output</h2>
+            <span class="chip"><span id="modelDot" class="dot ready"></span><span id="modelLatency">0 ms</span></span>
+          </div>
+          <div class="panel-body">
+            <div class="model-output">
+              <div class="result-tile">
+                <strong>Risk tier</strong>
+                <div id="riskTier" class="result-value tier-low">0</div>
+              </div>
+              <div class="result-tile">
+                <strong>Confidence</strong>
+                <div id="confidence" class="result-value">0.00</div>
+              </div>
+              <div class="result-tile">
+                <strong>Recommended action</strong>
+                <div id="nextStep" class="result-value" style="font-size:18px;">Supportive</div>
+              </div>
+              <div class="result-tile">
+                <strong>Escalation</strong>
+                <div id="escalation" class="result-value tier-low">No</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <aside class="side-column">
+        <article class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">Acoustic Context</h2>
+            <span class="chip">qualitative</span>
+          </div>
+          <div class="panel-body metric-stack">
+            <div class="metric">
+              <div class="metric-row"><span>Affect estimate</span><strong id="affectLabel">neutral</strong></div>
+              <div class="meter"><span id="affectMeter"></span></div>
+            </div>
+            <div class="metric">
+              <div class="metric-row"><span>Audio quality</span><strong id="qualityLabel">clean</strong></div>
+              <div class="meter"><span id="qualityMeter" style="width: 74%;"></span></div>
+            </div>
+            <div class="notice">Voice features are auxiliary research signals. They should not be used alone to diagnose depression, suicide risk, or clinical impairment.</div>
+          </div>
+        </article>
+
+        <article class="panel policy-card" id="policyCard">
+          <div class="panel-header">
+            <h2 class="panel-title">Safety Response</h2>
+            <span class="chip"><span id="policyDot" class="dot ready"></span><span id="policyStatus">template ready</span></span>
+          </div>
+          <div class="panel-body">
+            <div id="responseText" class="response-box">A safe response will appear after analysis.</div>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">Evidence</h2>
+            <span class="chip" id="evidenceCount">0 spans</span>
+          </div>
+          <div class="panel-body">
+            <ul id="evidenceList" class="evidence-list">
+              <li>No evidence spans selected yet.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <h2 class="panel-title">Structured JSON</h2>
+          </div>
+          <div class="panel-body">
+            <pre id="jsonOutput" class="json-box">{}</pre>
+            <p class="footer-note">For deployment, replace the demo analyzer with the fine-tuned student model endpoint.</p>
+          </div>
+        </article>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    const els = {
+      recordBtn: document.getElementById("recordBtn"),
+      recordLabel: document.getElementById("recordLabel"),
+      micDot: document.getElementById("micDot"),
+      micStatus: document.getElementById("micStatus"),
+      asrStatus: document.getElementById("asrStatus"),
+      modelStatus: document.getElementById("modelStatus"),
+      latencyText: document.getElementById("latencyText"),
+      vadDot: document.getElementById("vadDot"),
+      vadText: document.getElementById("vadText"),
+      waveform: document.getElementById("waveform"),
+      transcript: document.getElementById("transcript"),
+      partial: document.getElementById("partial"),
+      demoBtn: document.getElementById("demoBtn"),
+      analyzeBtn: document.getElementById("analyzeBtn"),
+      speakBtn: document.getElementById("speakBtn"),
+      clearBtn: document.getElementById("clearBtn"),
+      escalateBtn: document.getElementById("escalateBtn"),
+      energyLabel: document.getElementById("energyLabel"),
+      energyMeter: document.getElementById("energyMeter"),
+      pauseLabel: document.getElementById("pauseLabel"),
+      pauseMeter: document.getElementById("pauseMeter"),
+      rateLabel: document.getElementById("rateLabel"),
+      rateMeter: document.getElementById("rateMeter"),
+      affectLabel: document.getElementById("affectLabel"),
+      affectMeter: document.getElementById("affectMeter"),
+      qualityLabel: document.getElementById("qualityLabel"),
+      riskTier: document.getElementById("riskTier"),
+      confidence: document.getElementById("confidence"),
+      nextStep: document.getElementById("nextStep"),
+      escalation: document.getElementById("escalation"),
+      modelLatency: document.getElementById("modelLatency"),
+      modelDot: document.getElementById("modelDot"),
+      modelDotChip: document.getElementById("modelDotChip"),
+      apiBaseUrl: document.getElementById("apiBaseUrl"),
+      apiModel: document.getElementById("apiModel"),
+      policyCard: document.getElementById("policyCard"),
+      policyDot: document.getElementById("policyDot"),
+      policyStatus: document.getElementById("policyStatus"),
+      responseText: document.getElementById("responseText"),
+      evidenceList: document.getElementById("evidenceList"),
+      evidenceCount: document.getElementById("evidenceCount"),
+      jsonOutput: document.getElementById("jsonOutput")
+    };
+
+    const state = {
+      recording: false,
+      recognition: null,
+      audioContext: null,
+      analyser: null,
+      mediaStream: null,
+      animationId: null,
+      startedAt: 0,
+      lastVoiceAt: 0,
+      speechFrames: 0,
+      silenceFrames: 0,
+      lastResult: null
+    };
+
+    const demoText = "I have been feeling overwhelmed for weeks and I do not know how to keep going. I am not in immediate danger right now, but I need help soon.";
+
+    function createWaveform() {
+      els.waveform.innerHTML = "";
+      for (let i = 0; i < 42; i += 1) {
+        const bar = document.createElement("span");
+        bar.className = "bar";
+        bar.style.height = `${12 + Math.random() * 26}px`;
+        els.waveform.appendChild(bar);
+      }
+    }
+
+    function supportsSpeechRecognition() {
+      return Boolean(window.SpeechRecognition || window.webkitSpeechRecognition);
+    }
+
+    function setupRecognition() {
+      if (!supportsSpeechRecognition()) {
+        els.asrStatus.textContent = "ASR unavailable";
+        return null;
+      }
+      const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new Recognition();
+      recognition.continuous = true;
+      recognition.interimResults = true;
+      recognition.lang = "en-US";
+      recognition.onstart = () => {
+        els.asrStatus.textContent = "ASR streaming";
+      };
+      recognition.onerror = (event) => {
+        els.asrStatus.textContent = `ASR ${event.error}`;
+      };
+      recognition.onend = () => {
+        if (state.recording) {
+          try {
+            recognition.start();
+          } catch (error) {
+            els.asrStatus.textContent = "ASR restarting";
+          }
+        } else {
+          els.asrStatus.textContent = "ASR standby";
+        }
+      };
+      recognition.onresult = (event) => {
+        let finalText = "";
+        let interimText = "";
+        for (let i = event.resultIndex; i < event.results.length; i += 1) {
+          const text = event.results[i][0].transcript;
+          if (event.results[i].isFinal) {
+            finalText += text;
+          } else {
+            interimText += text;
+          }
+        }
+        if (finalText.trim()) {
+          const prefix = els.transcript.value.trim() ? "\n" : "";
+          els.transcript.value += prefix + finalText.trim();
+          els.partial.textContent = "Final transcript updated.";
+          queueAnalyze();
+        }
+        if (interimText.trim()) {
+          els.partial.textContent = interimText.trim();
+        }
+      };
+      return recognition;
+    }
+
+    async function startAudio() {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, channelCount: 1 } });
+      state.mediaStream = stream;
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      state.audioContext = new AudioContext();
+      const source = state.audioContext.createMediaStreamSource(stream);
+      state.analyser = state.audioContext.createAnalyser();
+      state.analyser.fftSize = 1024;
+      source.connect(state.analyser);
+      state.startedAt = performance.now();
+      state.lastVoiceAt = state.startedAt;
+      drawLevels();
+    }
+
+    function stopAudio() {
+      if (state.animationId) {
+        cancelAnimationFrame(state.animationId);
+        state.animationId = null;
+      }
+      if (state.mediaStream) {
+        state.mediaStream.getTracks().forEach((track) => track.stop());
+        state.mediaStream = null;
+      }
+      if (state.audioContext) {
+        state.audioContext.close();
+        state.audioContext = null;
+      }
+      state.analyser = null;
+      updateMeters(0);
+    }
+
+    function drawLevels() {
+      if (!state.analyser) {
+        return;
+      }
+      const data = new Uint8Array(state.analyser.fftSize);
+      state.analyser.getByteTimeDomainData(data);
+      let sum = 0;
+      let crossings = 0;
+      for (let i = 0; i < data.length; i += 1) {
+        const centered = (data[i] - 128) / 128;
+        sum += centered * centered;
+        if (i > 0) {
+          const prev = data[i - 1] - 128;
+          const current = data[i] - 128;
+          if ((prev < 0 && current >= 0) || (prev >= 0 && current < 0)) {
+            crossings += 1;
+          }
+        }
+      }
+      const rms = Math.sqrt(sum / data.length);
+      const level = Math.min(1, rms * 7.5);
+      const voiceActive = level > 0.08;
+      if (voiceActive) {
+        state.speechFrames += 1;
+        state.lastVoiceAt = performance.now();
+      } else {
+        state.silenceFrames += 1;
+      }
+      updateMeters(level, crossings);
+      state.animationId = requestAnimationFrame(drawLevels);
+    }
+
+    function updateMeters(level, crossings = 0) {
+      const percent = Math.round(level * 100);
+      els.energyLabel.textContent = `${percent}%`;
+      els.energyMeter.style.width = `${percent}%`;
+
+      const totalFrames = Math.max(1, state.speechFrames + state.silenceFrames);
+      const pauseRatio = Math.min(1, state.silenceFrames / totalFrames);
+      els.pauseMeter.style.width = `${Math.round(pauseRatio * 100)}%`;
+      els.pauseLabel.textContent = pauseRatio > 0.64 ? "elevated" : pauseRatio > 0.38 ? "normal" : "low";
+
+      const words = els.transcript.value.trim().split(/\s+/).filter(Boolean).length;
+      const minutes = Math.max(0.15, (performance.now() - (state.startedAt || performance.now())) / 60000);
+      const wpm = Math.round(words / minutes);
+      const ratePct = Math.min(100, Math.round((wpm / 180) * 100));
+      els.rateMeter.style.width = `${ratePct}%`;
+      els.rateLabel.textContent = words < 3 ? "waiting" : wpm < 90 ? "slow" : wpm > 175 ? "fast" : "typical";
+
+      const affectScore = Math.min(100, Math.round((percent * 0.45) + (ratePct * 0.35) + Math.min(20, crossings / 7)));
+      els.affectMeter.style.width = `${affectScore}%`;
+      els.affectLabel.textContent = affectScore < 34 ? "subdued" : affectScore > 68 ? "activated" : "neutral";
+
+      const bars = els.waveform.querySelectorAll(".bar");
+      bars.forEach((bar, index) => {
+        const movement = state.recording ? Math.sin(Date.now() / 115 + index * 0.9) : Math.sin(index);
+        const h = 14 + Math.abs(movement) * 16 + percent * 0.48;
+        bar.style.height = `${Math.max(10, Math.min(86, h))}px`;
+        bar.style.opacity = state.recording ? 0.78 : 0.42;
+      });
+
+      const vadActive = level > 0.08;
+      els.vadDot.className = `dot ${vadActive ? "ready" : ""}`;
+      els.vadText.textContent = vadActive ? "voice active" : "listening";
+    }
+
+    async function toggleRecording() {
+      if (state.recording) {
+        state.recording = false;
+        els.recordBtn.classList.remove("is-recording");
+        els.recordBtn.setAttribute("aria-label", "Start recording");
+        els.recordLabel.textContent = "Start session";
+        els.micDot.className = "dot ready";
+        els.micStatus.textContent = "Mic ready";
+        if (state.recognition) {
+          state.recognition.stop();
+        }
+        stopAudio();
+        return;
+      }
+
+      state.recording = true;
+      state.speechFrames = 0;
+      state.silenceFrames = 0;
+      els.recordBtn.classList.add("is-recording");
+      els.recordBtn.setAttribute("aria-label", "Stop recording");
+      els.recordLabel.textContent = "Recording";
+      els.micDot.className = "dot recording";
+      els.micStatus.textContent = "Mic live";
+      els.partial.textContent = "Listening...";
+
+      try {
+        await startAudio();
+      } catch (error) {
+        els.micStatus.textContent = "Mic blocked";
+        els.partial.textContent = "Microphone permission is required for live audio. You can still type or use demo text.";
+      }
+
+      state.recognition = setupRecognition();
+      if (state.recognition) {
+        try {
+          state.recognition.start();
+        } catch (error) {
+          els.asrStatus.textContent = "ASR already active";
+        }
+      }
+    }
+
+    let analyzeTimer = null;
+    function queueAnalyze() {
+      clearTimeout(analyzeTimer);
+      analyzeTimer = setTimeout(() => analyzeTranscript(), 250);
+    }
+
+    // Same system prompt + JSON schema as src/student_predictions/generate_student_predictions.py
+    // and src/teacher_labeling/schema.json, so this UI is a real client of the trained student
+    // model, not a separate ad hoc format.
+    const SYSTEM_PROMPT = (
+      "You are a research-only crisis triage assistant. " +
+      "Return only valid JSON matching the triage schema. " +
+      "Use exact evidence spans copied from the input text. " +
+      "Do not diagnose, prescribe medication, or provide therapy instructions."
+    );
+
+    const TRIAGE_SCHEMA = {
+      name: "triage_auxiliary_label",
+      strict: true,
+      schema: {
+        type: "object",
+        additionalProperties: false,
+        required: [
+          "risk_tier", "confidence", "evidence_spans", "risk_factors", "protective_factors",
+          "cssrs_axes", "clinical_rationale", "plain_language_summary",
+          "recommended_next_step", "escalation_required", "uncertainty_flags"
+        ],
+        properties: {
+          risk_tier: { type: "integer", enum: [0, 1, 2, 3] },
+          confidence: { type: "number", minimum: 0, maximum: 1 },
+          evidence_spans: { type: "array", minItems: 1, items: { type: "string" } },
+          risk_factors: { type: "array", items: { type: "string" } },
+          protective_factors: { type: "array", items: { type: "string" } },
+          cssrs_axes: {
+            type: "object", additionalProperties: false,
+            required: ["ideation", "behavior", "intensity", "lethality", "precipitants"],
+            properties: {
+              ideation: { type: "string" }, behavior: { type: "string" },
+              intensity: { type: "string" }, lethality: { type: "string" },
+              precipitants: { type: "string" }
+            }
+          },
+          clinical_rationale: { type: "string" },
+          plain_language_summary: { type: "string" },
+          recommended_next_step: {
+            type: "string",
+            enum: ["Supportive", "Professional support", "Urgent support", "Emergency escalation", "Human review"]
+          },
+          escalation_required: { type: "boolean" },
+          uncertainty_flags: { type: "array", items: { type: "string" } }
+        }
+      }
+    };
+
+    function buildMessages(text) {
+      const user = "Analyze the following text and return the structured triage JSON.\n\n<TEXT>\n" + text + "\n</TEXT>";
+      return [
+        { role: "system", content: SYSTEM_PROMPT },
+        { role: "user", content: user }
+      ];
+    }
+
+    function extractJson(content) {
+      let trimmed = content.trim();
+      if (trimmed.startsWith("```")) {
+        trimmed = trimmed.replace(/^```(json)?/i, "").replace(/```$/, "").trim();
+      }
+      const start = trimmed.indexOf("{");
+      const end = trimmed.lastIndexOf("}");
+      if (start < 0 || end <= start) {
+        throw new Error("model output did not contain a JSON object");
+      }
+      return JSON.parse(trimmed.slice(start, end + 1));
+    }
+
+    async function callStudentModel(text, { timeoutMs = 12000 } = {}) {
+      const baseUrl = (els.apiBaseUrl.value || "http://localhost:8000/v1").trim().replace(/\/$/, "");
+      const model = (els.apiModel.value || "local-student-triage-model").trim();
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const response = await fetch(`${baseUrl}/chat/completions`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          signal: controller.signal,
+          body: JSON.stringify({
+            model,
+            messages: buildMessages(text),
+            temperature: 0,
+            response_format: { type: "json_schema", json_schema: TRIAGE_SCHEMA }
+          })
+        });
+        if (!response.ok) {
+          throw new Error(`student endpoint returned HTTP ${response.status}`);
+        }
+        const body = await response.json();
+        const content = body.choices?.[0]?.message?.content;
+        if (!content) {
+          throw new Error("student endpoint returned no message content");
+        }
+        return extractJson(content);
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+
+    async function pingModel() {
+      try {
+        const baseUrl = (els.apiBaseUrl.value || "").trim().replace(/\/$/, "");
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 2500);
+        const response = await fetch(`${baseUrl}/models`, { signal: controller.signal });
+        clearTimeout(timer);
+        if (response.ok) {
+          els.modelStatus.textContent = "Student model live";
+          els.modelDotChip.className = "dot ready";
+          return true;
+        }
+      } catch (error) {
+        // endpoint unreachable, fall through to offline state below
+      }
+      els.modelStatus.textContent = "Model offline (demo heuristic)";
+      els.modelDotChip.className = "dot";
+      return false;
+    }
+
+    function analyzeHeuristic(text, forceEscalation = false) {
+      const lower = text.toLowerCase();
+      const riskTerms = [
+        "kill myself",
+        "suicide",
+        "end my life",
+        "not want to live",
+        "can't go on",
+        "cannot go on",
+        "hurt myself",
+        "immediate danger"
+      ];
+      const moderateTerms = [
+        "overwhelmed",
+        "hopeless",
+        "worthless",
+        "no way out",
+        "give up",
+        "need help",
+        "depressed"
+      ];
+      const protectiveTerms = [
+        "not in immediate danger",
+        "friend",
+        "family",
+        "therapist",
+        "doctor",
+        "safe right now"
+      ];
+      let tier = 0;
+      if (moderateTerms.some((term) => lower.includes(term))) tier = 2;
+      if (riskTerms.some((term) => lower.includes(term))) tier = 3;
+      if (forceEscalation) tier = 3;
+      if (!text) tier = 0;
+
+      const evidence = [];
+      [...riskTerms, ...moderateTerms].forEach((term) => {
+        const index = lower.indexOf(term);
+        if (index >= 0) {
+          evidence.push(text.slice(index, Math.min(text.length, index + Math.max(term.length, 55))).trim());
+        }
+      });
+      const uniqueEvidence = [...new Set(evidence)].slice(0, 4);
+
+      const confidence = text ? Math.min(0.92, 0.48 + uniqueEvidence.length * 0.13 + (tier === 3 ? 0.12 : 0)) : 0;
+      const escalation = tier === 3 || forceEscalation;
+      const nextStep = escalation ? "Emergency escalation" : tier >= 2 ? "Urgent support" : tier === 1 ? "Professional support" : "Supportive";
+
+      const uncertaintyFlags = [];
+      if (text.length < 40) uncertaintyFlags.push("short transcript");
+      uncertaintyFlags.push("offline demo heuristic (student model unreachable)");
+
+      return {
+        risk_tier: tier,
+        confidence: Number(confidence.toFixed(2)),
+        evidence_spans: uniqueEvidence,
+        risk_factors: tier >= 2 ? ["distress language", "help-seeking or hopelessness signal"] : [],
+        protective_factors: protectiveTerms.filter((term) => lower.includes(term)).slice(0, 3),
+        cssrs_axes: { ideation: "", behavior: "", intensity: "", lethality: "", precipitants: "" },
+        clinical_rationale: "Heuristic keyword match only — the fine-tuned student model was not reachable.",
+        plain_language_summary: "This is a fallback estimate; connect the student model endpoint for a real assessment.",
+        recommended_next_step: nextStep,
+        escalation_required: escalation,
+        uncertainty_flags: uncertaintyFlags
+      };
+    }
+
+    async function analyzeTranscript(forceEscalation = false) {
+      const start = performance.now();
+      const text = els.transcript.value.trim();
+      const acoustic = {
+        speech_rate: els.rateLabel.textContent,
+        pause_burden: els.pauseLabel.textContent,
+        affect_estimate: els.affectLabel.textContent,
+        audio_quality: els.qualityLabel.textContent,
+        voice_energy: els.energyLabel.textContent
+      };
+
+      let result;
+      let usedModel = false;
+      if (!text) {
+        result = analyzeHeuristic(text, forceEscalation);
+      } else {
+        try {
+          result = await callStudentModel(text);
+          if (forceEscalation) {
+            result.risk_tier = 3;
+            result.escalation_required = true;
+            result.recommended_next_step = "Emergency escalation";
+          }
+          usedModel = true;
+          els.modelStatus.textContent = "Student model live";
+          els.modelDotChip.className = "dot ready";
+        } catch (error) {
+          result = analyzeHeuristic(text, forceEscalation);
+          els.modelStatus.textContent = "Model offline (demo heuristic)";
+          els.modelDotChip.className = "dot";
+        }
+      }
+      result.acoustic_context = acoustic;
+
+      state.lastResult = result;
+      renderResult(result);
+      const elapsed = Math.round(performance.now() - start);
+      els.modelLatency.textContent = `${elapsed} ms${usedModel ? "" : " (heuristic)"}`;
+      els.latencyText.textContent = `Latency: ${elapsed} ms`;
+      return result;
+    }
+
+    function renderResult(result) {
+      els.riskTier.textContent = String(result.risk_tier);
+      els.riskTier.className = "result-value " + (result.risk_tier >= 3 ? "tier-high" : result.risk_tier >= 2 ? "tier-mid" : "tier-low");
+      els.confidence.textContent = result.confidence.toFixed(2);
+      els.nextStep.textContent = result.recommended_next_step;
+      els.escalation.textContent = result.escalation_required ? "Yes" : "No";
+      els.escalation.className = "result-value " + (result.escalation_required ? "tier-high" : "tier-low");
+      els.policyCard.classList.toggle("high", result.escalation_required);
+      els.policyDot.className = "dot " + (result.escalation_required ? "recording" : "ready");
+      els.policyStatus.textContent = result.escalation_required ? "escalation" : "supportive";
+
+      els.evidenceList.innerHTML = "";
+      if (result.evidence_spans.length) {
+        result.evidence_spans.forEach((span) => {
+          const li = document.createElement("li");
+          li.textContent = span;
+          els.evidenceList.appendChild(li);
+        });
+      } else {
+        const li = document.createElement("li");
+        li.textContent = "No evidence spans selected.";
+        els.evidenceList.appendChild(li);
+      }
+      els.evidenceCount.textContent = `${result.evidence_spans.length} spans`;
+      els.jsonOutput.textContent = JSON.stringify(result, null, 2);
+      els.responseText.textContent = buildSafeResponse(result);
+    }
+
+    function buildSafeResponse(result) {
+      if (result.escalation_required) {
+        return "I am concerned about your safety based on what I heard. If there is any immediate danger, contact local emergency services now or reach a trusted person nearby. I can stay on this screen while you get help.";
+      }
+      if (result.risk_tier >= 2) {
+        return "I hear that this is serious and you should not have to handle it alone. Please reach out to a trusted person or a qualified professional as soon as possible. If the situation becomes immediate, use emergency support.";
+      }
+      return "I hear you. The current transcript does not show an immediate crisis signal, but this research tool is not a substitute for professional support. A human reviewer should check uncertain cases.";
+    }
+
+    function speakResponse() {
+      const text = els.responseText.textContent.trim();
+      if (!text || !("speechSynthesis" in window)) {
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.rate = 0.98;
+      utterance.pitch = 1;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function clearAll() {
+      els.transcript.value = "";
+      els.partial.textContent = "Partial ASR text appears here while speech is still being decoded.";
+      state.lastResult = null;
+      renderResult({
+        risk_tier: 0,
+        confidence: 0,
+        evidence_spans: [],
+        risk_factors: [],
+        protective_factors: [],
+        cssrs_axes: { ideation: "", behavior: "", intensity: "", lethality: "", precipitants: "" },
+        clinical_rationale: "",
+        plain_language_summary: "",
+        acoustic_context: {},
+        recommended_next_step: "Supportive",
+        escalation_required: false,
+        uncertainty_flags: []
+      });
+      els.modelLatency.textContent = "0 ms";
+      els.latencyText.textContent = "Latency: idle";
+    }
+
+    els.recordBtn.addEventListener("click", toggleRecording);
+    els.analyzeBtn.addEventListener("click", () => analyzeTranscript());
+    els.speakBtn.addEventListener("click", speakResponse);
+    els.clearBtn.addEventListener("click", clearAll);
+    els.escalateBtn.addEventListener("click", () => analyzeTranscript(true));
+    els.demoBtn.addEventListener("click", () => {
+      els.transcript.value = demoText;
+      els.partial.textContent = "Demo transcript loaded.";
+      analyzeTranscript();
+    });
+    els.transcript.addEventListener("input", queueAnalyze);
+
+    createWaveform();
+    clearAll();
+    pingModel();
+    els.apiBaseUrl.addEventListener("change", pingModel);
+  </script>
+</body>
+</html>
